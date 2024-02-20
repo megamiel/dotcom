@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>ドットコム遷移.com</title>
+    <style>
+        h1 {
+            padding: 0.5em 0;
+            border-top: solid 3px #364e96;
+            border-bottom: solid 3px #364e96;
+        }
+
+        h2 {
+            background: #000000;
+            color: #fff;
+            font-size: 26px;
+            font-weight: bold;
+            margin: 0 0 10px;
+            padding: 10px 20px;
+        }
+
+        h3 {
+            border-left: 5px solid #000000;
+            font-size: 20px;
+            font-weight: bold;
+            margin: 0 0 20px;
+            padding: 0 0 0 10px;
+        }
+
+        h4 {
+            font-size: 20px;
+            font-weight: bold;
+            margin: 0 0 20px;
+        }
+
+        p {
+            margin-left: 30px;
+            margin-top: 0px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>　応用情報技術者試験</h1>
+
+    <h2>本日の学習予定科目</h2>
+    <script>
+        var today = new Date();
+        var start = new Date(2024, 0, 22);
+        var diffMilliSec = today - start;
+        /*ミリ秒を日数に変換*/
+        var diffDays = parseInt(diffMilliSec / 1000 / 60 / 60 / 24);
+        var numStr = ["令和5年秋期", "令和5年春期", "令和4年秋期", "令和4年春期", "令和3年秋期", "令和3年春期", "令和2年秋期", "令和元年秋期", "平成31年春期", "平成30年秋期", "平成30年春期", "平成29年秋期", "平成29年春期", "平成28年秋期", "平成28年春期", "平成27年秋期", "平成27年春期", "平成26年秋期", "平成26年春期", "平成25年秋期", "平成25年春期", "平成24年秋期", "平成24年春期", "平成23年秋期", "平成23年特別", "平成22年秋期", "平成22年春期", "平成21年秋期", "平成21年春期"];
+        var subsStr = ["情報セキュリティ", "経営戦略", "データベース", "サービスマネジメント", "プロジェクトマネジメント", "組込みシステム開発"];
+        var subIds = [0, 1, 5, 9, 8, 6];
+        write(0);
+        write(1);
+        onClickEvent(0);
+        onClickEvent(1);
+
+        function onClickEvent(index) {
+            document.getElementById("button" + index).addEventListener('click', function () {
+                var check_all = 'check_all';
+                var times = 'times[]';
+                var categories = 'categories[]';
+                var submit = 'submit';
+                var script = '';
+                var time = Math.floor(diffDays / 3);
+                var category = subIds[diffDays % 3 * 2 + index];
+                script += 'document.getElementsByName(\'' + check_all + '\')[1].click();';
+                script += 'document.getElementsByName(\'' + check_all + '\')[3].click();';
+                script += 'document.getElementsByName(\'' + times + '\')[' + time + '].click();';
+                script += 'document.getElementsByName(\'' + categories + '\')[' + category + '].click();';
+                script += 'document.getElementsByClassName(\'' + submit + '\')[0].click();';
+                copyToClipboard(script);
+            });;
+        }
+
+        function copyToClipboard(tagValue) {
+            if (navigator.clipboard) {
+                return navigator.clipboard.writeText(tagValue).then(function () { })
+            } else {
+                tagText.select();
+                document.execCommand('copy')
+            }
+        }
+
+        function write(index) {
+            var scriptCopyButton = "<input id=button" + index + " type='button' value='スクリプトコピー'>";
+            document.write("<p>" + numStr[Math.floor(diffDays / 3)] + " " + subsStr[diffDays % 3 * 2 + index] + "    " + scriptCopyButton + "<br></p>");
+        }
+    </script>
+
+    <h2>過去問道場へのリンク</h2>
+    <p><a href="https://www.ap-siken.com/apkakomon.php" target='_blank'>過去問道場 (午前)</a></p>
+    <p><a href="https://www.ap-siken.com/apkakomon_pm.php" target='_blank'>過去問道場 (午後)</a></p>
+
+    <h2>学習結果入力フォーム</h2>
+    <p><a href="https://forms.gle/j8oL8bwkB2HgdwkL8" target='_blank'>学習結果入力フォーム</a></p>
+
+    <h2>みんなの成績表</h2>
+    <p><a href="https://docs.google.com/spreadsheets/d/1ArB8T0B3ReoTGGmRmq_uDRFSNnJa2U5oIyJFlm5TpHc/edit#gid=0"
+            target='_blank'>成績表データベース</a></p>
+
+    <h2>借金一覧</h2>
+    <p><input id="inputName" type="text" size="40" placeholder="名前を入力"></p>
+    <p><input type="button" value="借金を表示" onclick="
+            document.getElementById('output').innerHTML='データ取得中...';
+            bottomScroll();
+            var today = new Date();
+            var start=new Date(2024,0,22);
+            var diffMilliSec =today  - start;
+            /*ミリ秒を日数に変換*/
+            var diffDays = parseInt(diffMilliSec / 1000 / 60 / 60 / 24);
+            var numStr=['令和5年秋期','令和5年春期','令和4年秋期','令和4年春期','令和3年秋期','令和3年春期','令和2年秋期','令和元年秋期','平成31年春期','平成30年秋期','平成30年春期','平成29年秋期','平成29年春期','平成28年秋期','平成28年春期','平成27年秋期','平成27年春期','平成26年秋期','平成26年春期','平成25年秋期','平成25年春期','平成24年秋期','平成24年春期','平成23年秋期','平成23年特別','平成22年秋期','平成22年春期','平成21年秋期','平成21年春期'];
+            var subsStr=['情報セキュリティ','経営戦略','データベース','サービスマネジメント','プロジェクトマネジメント','組込みシステム開発'];
+            const todayExam=Math.floor(diffDays/3);
+            const todayFinalSubject=diffDays%3*2+1;
+            var array=[];
+            for(var i=0;i<=todayExam;i++){
+              for(var j=0;j<subsStr.length;j++){
+                if(i==todayExam&&j>todayFinalSubject){
+                  break;
+                }
+                array.push(numStr[i]+' '+subsStr[j]);
+              }
+            }
+
+            var name=document.getElementById('inputName').value;
+            const baseHtml = document.querySelector('.spreadsheets--item.js-base');
+            const spreadsheets = document.querySelector('.spreadsheets');
+            const apiURL = 'https://script.googleusercontent.com/macros/echo?user_content_key=BOGdYm1y3kE77zyKdhnsRfW5T6buYk8z8GlynOB2Fq0oIEtRLwPdrpuQEZ6jnY0Bc42H-nBJpBz3TEYuKZ1aKwyWQwRMBcicm5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnBEac8yhMX_UGTRK0AmiD8wOBJ35tBimKZrrn5UGOz62eovfTyB1c6F0y4wx9TsrkmGJSNT4kJlBMnzlTuB8tvJ_6xO983bD7tz9Jw9Md8uu&lib=MMcLF4_2FiLZJ-kSjkX5mU7SAidacjQG-';
+            
+            loadData();
+            async function loadData() {
+              const response = await fetch(apiURL);
+              const data = await response.json();
+              data.forEach(entry => {
+                if(name==entry.name){
+                  const tmpExamSub=entry.examTime+' '+entry.subject;
+                  for(var i=0;i<array.length;i++){
+                    if(array[i]==tmpExamSub){
+                      array[i]=null;
+                      break;
+                    }
+                  }
+                }
+              });
+              var print='';
+              for(var i=0;i<array.length;i++){
+                if(array[i]!=null){
+                  var color='black';
+                  // 得意不得意で表示色を変えたい人生だった
+                  // if(array[i].includes('情報セキュリティ')){
+                  //   color='red';
+                  // }else if(array[i].includes('プロジェクトマネジメント')){
+                  //   color='blue';
+                  // }
+                  print+='<span style=color:'+color+'>'+array[i]+'</span><br>';
+                }
+              }
+              document.getElementById('output').innerHTML=print;
+              bottomScroll();
+            }
+            
+            function bottomScroll(){
+              var element = document.documentElement;
+              var bottom = element.scrollHeight - element.clientHeight;
+              window.scrollTo({top: bottom,
+                behavior: 'smooth',
+              });
+            }
+
+          " /></p>
+
+    <!-- <p><span style="color:blue">青表示</span>されている科目が得意な科目です<br>
+        <span style="color:red">赤表示</span>されている科目が苦手な科目です</p> -->
+    <p id="output"></p>
+</body>
+
+</html>
