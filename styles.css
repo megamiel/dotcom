@@ -55,7 +55,7 @@
 
 .spacer{
     user-select: none;
-    margin-left:19%;
+    margin-left:10%;
 }
 
 body {
@@ -77,7 +77,7 @@ a:hover {
 input[type=text] {
     height: 35px;
     font-size: 16px;
-    margin-left: 33%;
+    margin-left: 30%;
     font-family:serif;
 }
 
