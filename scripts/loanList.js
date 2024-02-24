@@ -6,6 +6,10 @@ document.getElementById("loanButton").addEventListener("click", () => {
     // 名前を取得し、借金一覧を表示する
     var name = document.getElementById("loanName").value;
     document.getElementById("evalName").value = name;
+    if (name == "") {
+        ulElement.innerHTML = "";
+        return;
+    }
     var today = new Date();
     var start = new Date(2024, 0, 22);
     var diffMilliSec = today - start;
