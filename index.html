@@ -7,10 +7,48 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
+        <div class="c-loader-bg js-loader-bg">
+            <div class="c-loader-container">
+                <span></span>
+                <span></span>
+                <span></span>
+                <p>LOADING</p>
+            </div>
+        </div>
+        <script>
+            const jsLoaderBg = ".js-loader-bg";
+            const closeLoadingScreen = (jsLoaderBg) => {
+                gsap.timeline().to(jsLoaderBg, {
+                    opacity: 0,
+                    direction: 1.1
+                });
+            };
+
+            window.onload = () => {
+                setTimeout(() => {
+                    closeLoadingScreen(jsLoaderBg);
+                }, 2500);
+            };
+        </script>
+
+
         <div class="fuchidori"><div class="blueLine"><h1>　ドットコム遷移　~学習計画・分析/評価~</h1></div></div>
-        <img src="https://usagif.com/wp-content/uploads/gif/outerspace-6.gif" width="100%" height="auto">
+            <div class="container">
+                <img src="https://usagif.com/wp-content/uploads/gif/outerspace-6.gif" width="100%" height="auto">
+            </div>
+            <div id="remain" class="pn">応用情報技術者試験</div>
+            <script>
+                var today = new Date();
+                var end = new Date(2024, 3,21);
+                var diffMilliSec = end - today;
+                var diffDays = parseInt(diffMilliSec / 1000 / 60 / 60 / 24)+1;
+                document.getElementById("remain").innerHTML="応用情報技術者試験<br>試験日まであと<span style='color: #00FFFF'>"+diffDays+"</span>日!!";
+            </script>
+        </div>
         <div class="marginTop">
+            <div class="box">
             <h2>本日の学習予定科目</h2>
+            </div>
         </div>
         <div class="box">
             <div class="field">
@@ -78,8 +116,6 @@
                 </div>
             </div>
         </footer>
-
-
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
