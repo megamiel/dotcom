@@ -11,7 +11,7 @@ gsap.fromTo(
     autoAlpha: 1, //アニメーション後の状態
     scrollTrigger: {
       trigger: ".marginTop", //アニメーションが始まるトリガーとなる要素
-        start: "top top", //アニメーションが始まる位置を指定
+        start: "bottom top", //アニメーションが始まる位置を指定
     },
   }
 );
