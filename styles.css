@@ -53,9 +53,13 @@
     margin-left:39%;
 }
 
+.graphCentering{
+    margin-left:17%;
+}
+
 .spacer{
     user-select: none;
-    margin-left:10%;
+    margin-left:13%;
 }
 
 body {
@@ -146,6 +150,11 @@ img {
 
 footer{
     margin:0px;
+}
+
+canvas{
+    margin:0 auto;
+    margin-bottom:5%;
 }
 
 .c-loader-bg {
