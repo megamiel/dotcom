@@ -121,6 +121,34 @@ document.getElementById("evalButton").addEventListener("click", () => {
 
             evalElement.innerHTML += "<div class='marginBottomHalf'></div>";
             divElement.appendChild(evalElement);
+
+            // var centering = document.createElement("div");
+            // centering.className = "graphCentering";
+            var canvas = document.createElement("canvas");
+            canvas.width = 800;
+
+            var count = [];
+            for (var i = 0; i < datas[key].length; i++){
+                count.push(i + 1);
+            }
+
+            new Chart(canvas, {
+                type: 'line',
+                data: {
+                    labels: count,
+                    datasets: [{
+                        label: key+" 点数表",
+                        data: [...datas[key], 0, 100],
+                        borderColor: key==favorite?"rgba(0,83,206)":key==weak?"rgba(255,0,0)":"orange",
+                        backgroundColor: "rgba(0,0,0,0)"
+                    }],
+                },
+                options: {
+                    responsive: false,
+                }
+            });
+            // centering.appendChild(canvas);
+            divElement.appendChild(canvas);
         });
     }
 
