@@ -14,11 +14,10 @@
 .blueLine{
     background-color: #007bff;
     padding: 1px;
+    border-radius: 5px;
 }
 
-.box{
-    
-}
+.box{}
 
 .field {
     display: flex;
@@ -41,6 +40,7 @@
 .marginBottomHalf{
     margin-bottom:3%;
 }
+
 .marginBottomQuarter {
     margin-bottom: 1%;
 }
@@ -138,12 +138,100 @@ li{
     margin:5px;
 }
 
-
 img {
     display: block;
     margin: auto;
+    border-radius: 30px;
 }
 
 footer{
     margin:0px;
+}
+
+.c-loader-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #5bbee5;
+    z-index: 999;
+    display: grid;
+    place-items: center;
+    pointer-events: none;
+}
+
+.c-loader-container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -50px;
+    margin-top: -10px;
+    text-align: center;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.c-loader-container span {
+    display: block;
+    background: #000;
+    width: 100px;
+    height: 5px;
+    margin-top: 5px;
+    animation: load 2s infinite;
+    border-radius: 5px;
+}
+
+.c-loader-container span:nth-child(2) {
+    animation-delay: 100ms;
+}
+
+.c-loader-container span:nth-child(3) {
+    animation-delay: 200ms;
+}
+
+@keyframes load {
+    50% {
+        width: 5px;
+        margin-right: 95px;
+        opacity: 0.1;
+    }
+}
+
+@keyframes AnimationName {
+    0% {
+        background-position: 50% 0%;
+    }
+
+    50% {
+        background-position: 50% 100%;
+    }
+
+    100% {
+        background-position: 50% 0%;
+    }
+}
+
+
+
+.container {
+    position: relative;
+}
+
+.pn {
+    font-family:"クラフト明朝";
+    font-size:48px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top:50%;
+    left: 30%;
+    color: rgb(232, 78, 198);
+    padding: 0;
+    margin: 0;
+        text-shadow: 1px 1px 0 #FFF, -1px -1px 0 #FFF,
+                -1px 1px 0 #FFF, 1px -1px 0 #FFF,
+                0px 1px 0 #FFF, 0-1px 0 #FFF,
+                -1px 0 0 #FFF, 1px 0 0 #FFF;
+    user-select: none;
+    text-align: center;
 }
