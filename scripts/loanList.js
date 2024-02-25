@@ -70,6 +70,17 @@ document.getElementById("loanButton").addEventListener("click", () => {
             }
         }
 
+        for (var i = 0; i < todaysSubjects.length; i++){
+            todaysSubject = todaysSubjects[i].innerHTML.replace("<br>", " ");
+            if (!array.includes(todaysSubject)) {
+                todaysSubjects[i].style.color="gray";
+            } else {
+                todaysSubjects[i].style.color = "black";
+            }
+            array[array.indexOf(todaysSubject)] = null;
+        }
+        
+
         ulElement.innerHTML = "";
         var count = 0;
         for (var i = 0; i < array.length; i++) {
@@ -87,12 +98,6 @@ document.getElementById("loanButton").addEventListener("click", () => {
             }
         }
 
-        for (var i = 0; i < todaysSubjects.length; i++){
-            if (!array.includes(todaysSubjects[i].innerHTML.replace("<br>", " "))) {
-                todaysSubjects[i].style.color="gray";
-            } else {
-                todaysSubjects[i].style.color = "black";
-            }
-        }
+
     }
 });
