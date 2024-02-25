@@ -13,7 +13,6 @@ document.getElementById("loanButton").addEventListener("click", () => {
         return;
     }
     var today = new Date();
-    today.setDate(today.getDate() - 1);
     var start = new Date(2024, 0, 22);
     var diffMilliSec = today - start;
     /*ミリ秒を日数に変換*/
