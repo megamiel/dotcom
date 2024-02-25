@@ -5,12 +5,15 @@ document.getElementById("loanButton").addEventListener("click", () => {
 
     // 名前を取得し、借金一覧を表示する
     var name = document.getElementById("loanName").value;
-    document.getElementById("evalName").value = name;
+    if (name.split(/&$/).length==1) {
+        document.getElementById("evalName").value = name;
+    }
     if (name == "") {
         ulElement.innerHTML = "";
         return;
     }
     var today = new Date();
+    today.setDate(today.getDate() - 1);
     var start = new Date(2024, 0, 22);
     var diffMilliSec = today - start;
     /*ミリ秒を日数に変換*/
@@ -35,18 +38,48 @@ document.getElementById("loanButton").addEventListener("click", () => {
     async function loadData() {
         const response = await fetch(apiURL);
         const data = await response.json();
-        data.forEach(entry => {
-            if (name == entry.name) {
-                const tmpExamSub = entry.examTime + ' ' + entry.subject;
-                for (var i = 0; i < array.length; i++) {
-                    if (array[i] == tmpExamSub) {
-                        array[i] = null;
-                        break;
-                    }
+
+        // 左側の借金かつ右側の未借金であるものを借金として表示する
+        if (name.includes("$")) {
+            var names = name.split("$");
+            var main = names[0];
+            var sub = names[1];
+            var subArray = [...array];
+            data.forEach(entry => {
+                if (main == entry.name) {
+                    const tmpExamSub = entry.examTime + ' ' + entry.subject;
+                    array[array.indexOf(tmpExamSub)] = null;
+                }else if (sub == entry.name) {
+                    const tmpExamSub = entry.examTime + ' ' + entry.subject;
+                    subArray[subArray.indexOf(tmpExamSub)] = null;
+                }
+            });
+            for (var i = 0; i < array.length; i++){
+                if (!(array[i] != null && subArray[i] == null)) {
+                    array[i] = null;
                 }
             }
-        });
+        } else {
+            var names = name.split("&");
+            for (var i = 0; i < names.length; i++) {
+                data.forEach(entry => {
+                    if (names[i] == entry.name) {
+                        const tmpExamSub = entry.examTime + ' ' + entry.subject;
+                        array[array.indexOf(tmpExamSub)] = null;
+                    }
+                });
+            }
+        }
+
         ulElement.innerHTML = "";
+        var count = 0;
+        for (var i = 0; i < array.length; i++) {
+            if (array[i] != null) {
+                count++;
+            }
+        }
+        ulElement.innerHTML = count + "個の借金があります</div>";
+
         for (var i = 0; i < array.length; i++) {
             if (array[i] != null) {
                 var liElement = document.createElement('li');
@@ -58,6 +91,8 @@ document.getElementById("loanButton").addEventListener("click", () => {
         for (var i = 0; i < todaysSubjects.length; i++){
             if (!array.includes(todaysSubjects[i].innerHTML.replace("<br>", " "))) {
                 todaysSubjects[i].style.color="gray";
+            } else {
+                todaysSubjects[i].style.color = "black";
             }
         }
     }
