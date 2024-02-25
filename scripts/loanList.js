@@ -39,16 +39,21 @@ document.getElementById("loanButton").addEventListener("click", () => {
         const data = await response.json();
 
         // 左側の借金かつ右側の未借金であるものを借金として表示する
+        if (name.includes("&") && name.includes("$")) {
+            ulElement.innerHTML = "";
+            return;
+        }
         if (name.includes("$")) {
             var names = name.split("$");
             var main = names[0];
-            var sub = names[1];
+            var sub = [...names];
+            sub.shift();
             var subArray = [...array];
             data.forEach(entry => {
                 if (main == entry.name) {
                     const tmpExamSub = entry.examTime + ' ' + entry.subject;
                     array[array.indexOf(tmpExamSub)] = null;
-                }else if (sub == entry.name) {
+                }else if (sub.includes(entry.name)) {
                     const tmpExamSub = entry.examTime + ' ' + entry.subject;
                     subArray[subArray.indexOf(tmpExamSub)] = null;
                 }
@@ -97,7 +102,5 @@ document.getElementById("loanButton").addEventListener("click", () => {
                 ulElement.appendChild(liElement);
             }
         }
-
-
     }
 });
