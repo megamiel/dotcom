@@ -244,3 +244,7 @@ canvas{
     user-select: none;
     text-align: center;
 }
+
+html {
+    scroll-behavior: smooth;
+}
