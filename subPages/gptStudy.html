@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>GPT-STUDY</title>
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+        * {
+            color: white;
+            font-family: "クラフト明朝";
+            margin: 0;
+            padding: 0;
+        }
+
+        h2{
+            margin:3%;
+            font-size:26px;
+            line-height:1.2em;
+        }
+
+
+        body {
+            background:rgb(30,30,40);
+        }
+
+        .yellow{
+            color:yellow;
+        }
+
+        .red{
+            color:red;
+        }
+
+        fieldset{
+            margin-left:10%;
+            margin-right:10%;
+            border-radius: 10px;
+            font-size:26px
+        }
+
+        fieldset>p{
+            margin:1%;
+        }
+
+        legend{
+            font-size:32px;
+        }
+
+
+    </style>
+</head>
+<body>
+
+
+    <!-- 今の所これが最強プロンプト -->
+    <!-- 応用情報技術者試験の午後問題 情報セキュリティの模擬問題を作成してください
+    問題文は200から300文字程度を目安にしてください。
+    問題文表示の際は答えは出力せずに私が解答したら、その解答の正誤判定と答え、答えの解説を出力してください -->
+
+    <script>
+        window.moveTo(0,0);
+        window.resizeTo(window.screen.width/2, window.screen.height);
+        foreverMoveTo(window,0,0);
+        window.addEventListener('resize', ()=> window.resizeTo(window.screen.width / 2, window.screen.height));
+
+        // クリップボードへコピー
+        function copyToClipboard(text) {
+            if (navigator.clipboard) {
+                return navigator.clipboard.writeText(text).then(function (){});
+            } else {
+                tagText.select();
+                document.execCommand('copy');
+            }
+        }
+
+        var genres={
+            情報セキュリティ: "DNSサーバのセキュリティ対策,電子メールのセキュリティ対策,サーバへのSSLの導入,セキュリティインシデント対応,公開鍵基盤を用いた認証システム,Webサイトを用いたシステムのセキュリティ,Webサイトのセキュリティ強化策",
+            データベース:"E-R図,SQL,正規化"
+        };
+
+        // chat gptを開く
+        function openGpt(event,subject){
+            event.preventDefault();
+            // プロンプトコピーを行う
+            var prompt= "応用情報技術者試験の午後問題 "+subject+"の模擬問題を作成してください\n";
+            prompt+="・詳細な設定の問題文を提供してください\n";
+            if(genres[subject]!=null){
+                prompt += "・" + genres[subject] + "の中から一つの分野の問題に絞ってください\n";
+                prompt += "・問題文の前に「分野」を出力してください\n";
+            }
+            prompt+="・4つの選択肢の中から一つ答えがあるような形式にしてください";
+            prompt+="・問題は文章中で答えがあるもの、または用語を問うものにしてください\n";
+            prompt+="・問題出題の際は答えや解答例を出力しないでください\n";
+            prompt+="・私が解答したら、その解答の正誤判定と答え、答えの解説を出力してください\n";
+            prompt += "・問題文は300から500文字程度を目安にしてください。";
+    
+            copyToClipboard(prompt);
+
+            var gptWindow=window.open("https://chat.openai.com/","_blank","popup");
+            gptWindow.moveTo(window.screen.width / 2, 0);
+            gptWindow.resizeTo(window.screen.width / 2, window.screen.height);
+        }
+
+        async function foreverMoveTo(w,x,y){
+            setInterval(function () {
+                if(w.screenX!=x||w.screeeY!=y){
+                    w.moveTo(x,y);
+                }
+            }, 300);
+        }
+    </script>
+
+    <br><br>
+    <div class="centering"><h1>GPT-STUDY</h1></div>
+    <div class="centering"><h2>ChatGPTに疑似問題を作成させることで<br>過去問の枯渇問題を解決します<br>また問題文の長さの指定が可能なため、気軽に挑戦できます</h2></div>
+    <div class="centering"><h2>利用方法<br>指定の学習科目と詳細メニューを選択すると<br>クリップボードにプロンプトがコピーされるため<br>開かれたChatGPTにプロンプトを入力してください</h2>
+    <div class="centering"><h2><div class="red">注意<br>ChatGPTとのチャットが問題作成のたびに増えていくため<br>気になる方はGPT-STUDY用のアカウントを作成してください</div></h2>
+    <div class="centering"><h2>※このサイトはベータ版です</h2></div>
+
+    <fieldset>
+        <legend>情報セキュリティ</legend>
+        <p><a href="" onclick="openGpt(event,'情報セキュリティ')">BETA TEST</a></p>
+    </fieldset>
+
+    <fieldset>
+        <legend>経営戦略</legend>
+        <p><a href="" onclick="openGpt(event,'経営戦略')">BETA TEST</a></p>
+    </fieldset>
+
+    <fieldset>
+        <legend>データベース</legend>
+        <p><a href="" onclick="openGpt(event,'データベース')">BETA TEST</a></p>
+    </fieldset>
+
+    <fieldset>
+        <legend>サービスマネジメント</legend>
+        <p><a href="" onclick="openGpt(event,'サービスマネジメント')">BETA TEST</a></p>
+    </fieldset>
+
+    <fieldset>
+        <legend>プロジェクトマネジメント</legend>
+        <p><a href="" onclick="openGpt(event,'プロジェクトマネジメント')">BETA TEST</a></p>
+    </fieldset>
+
+    <fieldset>
+        <legend>組込みシステム開発</legend>
+        <p><a href="" onclick="openGpt(event,'組込みシステム開発')">BETA TEST</a></p>
+    </fieldset>
+
+
+    <br><br><br>
+
+
+
+
+</body>
+
+</html>
