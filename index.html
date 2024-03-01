@@ -5,7 +5,15 @@
         <meta charset="UTF-8">
         <title>ドットコム遷移</title>
         <link rel="stylesheet" href="styles.css">
+
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.5.1/chart.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js"></script>
+        <style>
+            .canvas{
+                width:70%;
+                margin-left:15%;
+            }
+        </style>
     </head>
     <body>
         <div class="c-loader-bg js-loader-bg">
@@ -33,19 +41,25 @@
         </script>
 
 
-        <div class="fuchidori"><div class="blueLine"><h1>　ドットコム遷移　~学習計画・分析/評価~</h1></div></div>
-            <div class="container">
-                <img src="https://usagif.com/wp-content/uploads/gif/outerspace-6.gif" width="100%" height="auto">
+        <div class="fuchidori">
+            <div class="blueLine">
+                <div class="oneLine">
+                    <h1>　ドットコム遷移　~学習計画・分析/評価~</h1>
+                </div>
+                
             </div>
-            <div id="remain" class="pn">応用情報技術者試験</div>
-            <script>
-                var today = new Date();
-                var end = new Date(2024, 3,21);
-                var diffMilliSec = end - today;
-                var diffDays = parseInt(diffMilliSec / 1000 / 60 / 60 / 24)+1;
-                document.getElementById("remain").innerHTML="応用情報技術者試験<br>試験日まであと<span style='color: #00FFFF'>"+diffDays+"</span>日!!";
-            </script>
         </div>
+        <div class="container">
+            <img src="https://usagif.com/wp-content/uploads/gif/outerspace-6.gif" width="100%" height="auto">
+        </div>
+        <div id="remain" class="pn">応用情報技術者試験</div>
+        <script>
+            var today = new Date();
+            var end = new Date(2024, 3,21);
+            var diffMilliSec = end - today;
+            var diffDays = parseInt(diffMilliSec / 1000 / 60 / 60 / 24)+1;
+            document.getElementById("remain").innerHTML="応用情報技術者試験<br>試験日まであと<span style='color: #00FFFF'>"+diffDays+"</span>日!!";
+        </script>
         <div class="marginTop">
             <div class="box">
             <h2>本日の学習予定科目</h2>
@@ -85,6 +99,7 @@
 
         <div id="evalDiv" class="marginTopQuarter"></div>
         <script src="scripts/evalSubject.js"></script>
+        <div class="canvas"></div>
 
         <footer>
             <div class="marginTop">
@@ -112,14 +127,17 @@
                         <p><a href="https://docs.google.com/spreadsheets/d/1ArB8T0B3ReoTGGmRmq_uDRFSNnJa2U5oIyJFlm5TpHc/edit#gid=0"
                             target='_blank'>みんなの成績表スプレッドシート</a></p>
                     </div>
+
                     <div class="field">
                         <div class="spacer"></div>
                         <p><a href="" target='_blank' onclick="window.open('subPages/gptStudy.html', '_blank', 'popup');">GPT-STUDY</a></p>
                     </div>
+
                     <br>
                 </div>
             </div>
         </footer>
+
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
