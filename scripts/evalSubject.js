@@ -3,6 +3,8 @@ document.getElementById("evalButton").addEventListener("click", () => {
     divElement.innerHTML = "<div class='centering'><p>データ取得中...</p></div>";
     var name = document.getElementById("evalName").value;
     document.getElementById("loanName").value = name;
+    var canvasDiv = document.getElementsByClassName("canvas")[0];
+    canvasDiv.innerHTML="";
     if (name == "") {
         divElement.innerHTML = "";
         return;
@@ -14,9 +16,9 @@ document.getElementById("evalButton").addEventListener("click", () => {
     async function loadData() {
         const response = await fetch(apiURL);
         const data = await response.json();
-        var datas = {情報セキュリティ:[],経営戦略:[],データベース:[],サービスマネジメント:[],プロジェクトマネジメント:[],組込みシステム開発:[]};
+        var datas = { 情報セキュリティ: [], 経営戦略: [], データベース: [], プロジェクトマネジメント: [], サービスマネジメント: [], 組込みシステム開発: [] };
         data.forEach(entry => {
-            if (name == entry.name&&entry.subject!="午前問題") {
+            if (name == entry.name && entry.subject != "午前問題") {
                 datas[entry.subject].push(entry.score);
             }
         });
@@ -28,7 +30,7 @@ document.getElementById("evalButton").addEventListener("click", () => {
         // 最低点
         // 標準偏差
         // 最近側の点数が影響しやすい計算方法の点数
-        var evalDatas = { 情報セキュリティ: [], 経営戦略: [], データベース: [], サービスマネジメント: [], プロジェクトマネジメント: [], 組込みシステム開発: [] };
+        var evalDatas = { 情報セキュリティ: [], 経営戦略: [], データベース: [], プロジェクトマネジメント: [], サービスマネジメント: [], 組込みシステム開発: [] };
         Object.keys(datas).forEach(key => {
             var array = datas[key];
             var num = array.length;
@@ -57,7 +59,7 @@ document.getElementById("evalButton").addEventListener("click", () => {
             }
             var deviationSum = 0;
             array.forEach(score => {
-                deviationSum+=(score - average)*(score-average);
+                deviationSum += (score - average) * (score - average);
             });
             var standardDeviation = Math.sqrt(deviationSum / num);
             evalDatas[key].push(num, total, average, max, min, standardDeviation, newScore);
@@ -75,7 +77,7 @@ document.getElementById("evalButton").addEventListener("click", () => {
             }
         });
 
-        divElement.innerHTML = '<div class="marginTopHalf"><div class="fuchidori"><div class="blueLine"><h2>'+name+'の科目ごとの分析/評価</h2></div></div></div>';
+        divElement.innerHTML = '<div class="marginTopHalf"><div class="fuchidori"><div class="blueLine"><h2>' + name + 'の科目ごとの分析/評価</h2></div></div></div>';
 
         Object.keys(evalDatas).forEach(key => {
             var subjectElement = document.createElement("h2");
@@ -93,7 +95,7 @@ document.getElementById("evalButton").addEventListener("click", () => {
             elements.innerHTML += "<div class='textCentering'>最高点　:" + Math.floor(evalDatas[key][3] * 10) / 10.0 + "</div>";
             elements.innerHTML += "<div class='textCentering'>最低点　:" + Math.floor(evalDatas[key][4] * 10) / 10.0 + "</div>";
             elements.innerHTML += "<div class='textCentering'>標準偏差:" + Math.floor(evalDatas[key][5] * 10) / 10.0 + "</div>";
-            elements.innerHTML += "<div class='textCentering'>全体評価:" + Math.floor(evalDatas[key][6] * 10) / 10.0 + "</div>";
+            elements.innerHTML += "<div class='textCentering'>総合評価:" + Math.floor(evalDatas[key][6] * 10) / 10.0 + "</div>";
             elements.innerHTML += "<div class='marginBottomQuarter'></div>";
             divElement.appendChild(elements);
             var evalTextElement = document.createElement("h1");
@@ -104,31 +106,29 @@ document.getElementById("evalButton").addEventListener("click", () => {
             if (evalDatas[key][5] > 15) {
                 evalElement.innerHTML += "<div class='centering'>点数の上下が激しく、不安定です</div>";
             } else if (evalDatas[key][5] > 10) {
-                evalElement.innerHTML+="<div class='centering'>点数が一定で収束しており、安定しています</div>";
+                evalElement.innerHTML += "<div class='centering'>点数が一定で収束しており、安定しています</div>";
             } else {
-                evalElement.innerHTML+="<div class='centering'>平均点とほぼ同じ点数を継続して取り続けています</div>";
+                evalElement.innerHTML += "<div class='centering'>平均点とほぼ同じ点数を継続して取り続けています</div>";
             }
             if (evalDatas[key][6] > evalDatas[key][2]) {
-                evalElement.innerHTML+="<div class='centering'>初期の頃と比べ、得点率に成長が見られます</div>";
+                evalElement.innerHTML += "<div class='centering'>初期の頃と比べ、得点率に成長が見られます</div>";
             } else {
-                evalElement.innerHTML+="<div class='centering'>初期の頃と得点率に変わりが見られません</div>";
+                evalElement.innerHTML += "<div class='centering'>初期の頃と得点率に変わりが見られません</div>";
             }
             if (key == favorite) {
-                evalElement.innerHTML+="<div class='centering'>あなたが最も得意としている科目です</div>";
+                evalElement.innerHTML += "<div class='centering'>あなたが最も得意としている科目です</div>";
             } else if (key == weak) {
-                evalElement.innerHTML+="<div class='centering'>あなたが最も苦手としている科目です</div>";
+                evalElement.innerHTML += "<div class='centering'>あなたが最も苦手としている科目です</div>";
             }
 
             evalElement.innerHTML += "<div class='marginBottomHalf'></div>";
             divElement.appendChild(evalElement);
 
-            // var centering = document.createElement("div");
-            // centering.className = "graphCentering";
             var canvas = document.createElement("canvas");
             canvas.width = 800;
 
             var count = [];
-            for (var i = 0; i < datas[key].length; i++){
+            for (var i = 0; i < datas[key].length; i++) {
                 count.push(i + 1);
             }
 
@@ -137,9 +137,10 @@ document.getElementById("evalButton").addEventListener("click", () => {
                 data: {
                     labels: count,
                     datasets: [{
-                        label: key+" 点数表",
+                        lineTension: 0, // ベジェ曲線を無効化
+                        label: key + " 点数表",
                         data: [...datas[key], 0, 100],
-                        borderColor: key==favorite?"rgba(0,83,206)":key==weak?"rgba(255,0,0)":"orange",
+                        borderColor: key == favorite ? "rgba(0,83,206)" : key == weak ? "rgba(255,0,0)" : "orange",
                         backgroundColor: "rgba(0,0,0,0)"
                     }],
                 },
@@ -150,6 +151,65 @@ document.getElementById("evalButton").addEventListener("click", () => {
             // centering.appendChild(canvas);
             divElement.appendChild(canvas);
         });
+
+
+
+
+        Chart.defaults.global.defaultFontFamily = "クラフト明朝";
+        var h1 = document.createElement("h1");
+        h1.innerHTML = "<div class='centering'>総合評価レーダーチャート</div>";
+        canvasDiv.appendChild(h1);
+        var myRadarElement = document.createElement("canvas");
+        
+        canvasDiv.appendChild(myRadarElement);
+        var myRadar = new Chart(myRadarElement, {
+
+            type: 'radar', // チャートのタイプ
+            data: { // チャートの内容
+                labels: ["情報セキュリティ", "経営戦略", "データベース", "サービスマネジメント", "プロジェクトマネジメント", "組込みシステム開発"],
+
+                datasets: [
+                {
+                    label: "総合評価",
+                    lineTension: 0, // ベジェ曲線を無効化
+                    data: [evalDatas["情報セキュリティ"][6],evalDatas["経営戦略"][6], evalDatas["データベース"][6], evalDatas["サービスマネジメント"][6], evalDatas["プロジェクトマネジメント"][6], evalDatas["組込みシステム開発"][6]],
+                    backgroundColor: 'RGBA(77,169,155, 0.4)',
+                    borderColor: 'blue',
+                    borderWidth: 1,
+                    pointBackgroundColor: 'blue'
+                },]
+            },
+            options: { // チャートのその他オプション
+                scale: {
+                    pointLabels: {       // 軸のラベル（"国語"など）
+                        
+                        fontSize: 22,         // 文字の大きさ
+                        fontColor: "black"    // 文字の色
+                    },
+                    ticks: {             // 目盛り
+                        min: 0,              // 最小値
+                        max: 100,            // 最大値
+                        stepSize: 20,        // 目盛の間隔
+                        fontSize: 16,        // 目盛り数字の大きさ
+                        fontColor: "purple"  // 目盛り数字の色
+                    },
+                    angleLines: {        // 軸（放射軸）
+                        display: true,
+                        color: "purple"
+                    },
+                    gridLines: {         // 補助線（目盛の線）
+                        display: true,
+                        color: "lime"
+                    }
+                }
+            }
+        });
+
+
+
+
+
+
     }
 
 });
