@@ -16,7 +16,7 @@ document.getElementById("evalButton").addEventListener("click", () => {
     async function loadData() {
         const response = await fetch(apiURL);
         const data = await response.json();
-        var datas = { 情報セキュリティ: [], 経営戦略: [], データベース: [], プロジェクトマネジメント: [], サービスマネジメント: [], 組込みシステム開発: [] };
+        var datas = { 情報セキュリティ: [], 経営戦略: [], データベース: [], サービスマネジメント: [],プロジェクトマネジメント: [], 組込みシステム開発: [] };
         data.forEach(entry => {
             if (name == entry.name && entry.subject != "午前問題") {
                 datas[entry.subject].push(entry.score);
@@ -30,7 +30,7 @@ document.getElementById("evalButton").addEventListener("click", () => {
         // 最低点
         // 標準偏差
         // 最近側の点数が影響しやすい計算方法の点数
-        var evalDatas = { 情報セキュリティ: [], 経営戦略: [], データベース: [], プロジェクトマネジメント: [], サービスマネジメント: [], 組込みシステム開発: [] };
+        var evalDatas = { 情報セキュリティ: [], 経営戦略: [], データベース: [],  サービスマネジメント: [],プロジェクトマネジメント: [], 組込みシステム開発: [] };
         Object.keys(datas).forEach(key => {
             var array = datas[key];
             var num = array.length;
