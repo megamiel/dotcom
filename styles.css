@@ -78,6 +78,18 @@ a:hover {
     color: red;
 }
 
+h3>a:link{
+    color: black;
+}
+
+h3>a:visited {
+    color: black;
+}
+
+h3>a:hover {
+    color: black;
+}
+
 input[type=text] {
     height: 35px;
     font-size: 16px;
