@@ -76,7 +76,7 @@ document.getElementById("loanButton").addEventListener("click", () => {
         }
 
         for (var i = 0; i < todaysSubjects.length; i++){
-            todaysSubject = todaysSubjects[i].innerHTML.replace("<br>", " ");
+            var todaysSubject = todaysSubjects[i].innerHTML.replace("<br>", " ");
             if (!array.includes(todaysSubject)) {
                 todaysSubjects[i].style.color="gray";
             } else {
@@ -98,9 +98,22 @@ document.getElementById("loanButton").addEventListener("click", () => {
         for (var i = 0; i < array.length; i++) {
             if (array[i] != null) {
                 var liElement = document.createElement('li');
-                liElement.textContent = array[i];
+                liElement.innerHTML = "<a href='' onclick='loanCopy(event,"+i+")'>"+ array[i]+"</a>";
                 ulElement.appendChild(liElement);
             }
         }
     }
 });
+
+function loanCopy(event, i) {
+    event.preventDefault();
+    var prompt = "/*prompt:" + numStr[Math.floor(i / 6)] + " " + subsStr[i % 6]+"*/\n";
+    prompt += "document.getElementsByName('check_all')[1].click();document.getElementsByName('check_all')[3].click();";
+    var exam = Math.floor(i/6);
+    var sub = subIds[i%6];
+    prompt += "document.getElementsByName('times[]')[" + exam + "].click();";
+    prompt += "document.getElementsByName('categories[]')[" + sub + "].click();";
+    prompt += "document.getElementsByClassName('submit')[0].click();";
+    copyToClipboard(prompt);
+    window.open("https://www.ap-siken.com/apkakomon_pm.php");
+}
