@@ -1,1 +1,0 @@
-<ul class="selectList"><li>MAC(Message Authentication Code)</li><li>XML署名</li><li>ニューラルネットワーク</li><li>ブロックチェーン</li></ul>

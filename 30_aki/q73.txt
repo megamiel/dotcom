@@ -1,1 +1,0 @@
-<div class="sentence">ある期間の生産計画において，表の部品表で表される製品Aの需要量が10個であるとき，部品Dの正味所要量は何個か。ここで，ユニットBの在庫残が5個，部品Dの在庫残が25個あり，ほかの在庫残，仕掛残，注文残，引当残などはないものとする。<div class="img_margin"><img alt="73.gif" src="https://www.ap-siken.com/kakomon/30_aki/img/73.gif"/></div></div>

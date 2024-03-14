@@ -1,1 +1,0 @@
-<ul class="selectList"><li>限界値分析</li><li>条件網羅</li><li>同値分割</li><li>分岐網羅</li></ul>

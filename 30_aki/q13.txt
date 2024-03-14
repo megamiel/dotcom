@@ -1,1 +1,0 @@
-<div class="sentence">商品検索と発注入力が可能なWebシステムについて，時間帯別のトランザクション数を表1に，TPS(Transaction Per Second)による必要なCPU数を表2に示す。このWebシステムに必要かつ十分なCPU数は幾つか。ここで，OSのオーバーヘッドなどの処理については無視でき，トランザクションはそれぞれ時間帯の中で均等に発生するものとする。<div class="img_margin"><img alt="13.gif" src="https://www.ap-siken.com/kakomon/30_aki/img/13.gif"/></div></div>

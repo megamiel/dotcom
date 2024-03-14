@@ -1,1 +1,0 @@
-<ul class="selectList"><li>0.24</li><li>0.43</li><li>0.48</li><li>0.64</li></ul>

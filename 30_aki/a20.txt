@@ -1,1 +1,0 @@
-<ul class="selectList"><li>3847番地</li><li>7680番地</li><li>7694番地</li><li>8978番地</li></ul>

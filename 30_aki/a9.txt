@@ -1,1 +1,0 @@
-<ul class="selectList"><li>奇数パリティ</li><li>水平パリティ</li><li>チェックサム</li><li>ハミング符号</li></ul>

@@ -1,1 +1,0 @@
-<div class="sentence">社員と年の対応関係をUMLのクラス図で記述する。二つのクラス間の関連が次の条件を満たす場合，a，bに入れる多重度の適切な組合せはどれか。ここで，"年"クラスのインスタンスは毎年存在する。<br/><br/>〔条件〕<ul class="parenthesesList"><li class="li1">全ての社員は入社年を特定できる。</li><li class="li2">年によっては社員が入社しないこともある。</li></ul><div class="img_margin"><img alt="26.gif" src="https://www.ap-siken.com/kakomon/30_aki/img/26.gif"/></div></div>

@@ -1,1 +1,0 @@
-<div class="sentence">あるシステムの開発工数を見積もると120人月であった。このシステムの開発を12か月で終えるように表に示す計画を立てる。プログラム作成工程には，何名の要員を確保しておく必要があるか。ここで，工程内での要員の増減はないものとする。<div class="img_margin"><img alt="53.gif" src="https://www.ap-siken.com/kakomon/30_aki/img/53.gif"/></div></div>

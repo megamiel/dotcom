@@ -1,1 +1,0 @@
-<ul class="selectList"><li><img alt="01a.gif" src="https://www.ap-siken.com/kakomon/30_aki/img/01a.gif"/></li><li><img alt="01i.gif" src="https://www.ap-siken.com/kakomon/30_aki/img/01i.gif"/></li><li><img alt="01u.gif" src="https://www.ap-siken.com/kakomon/30_aki/img/01u.gif"/></li><li><img alt="01e.gif" src="https://www.ap-siken.com/kakomon/30_aki/img/01e.gif"/></li></ul>

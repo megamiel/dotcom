@@ -1,1 +1,0 @@
-<ul class="selectList"><li>クラスタ分析法</li><li>指数平滑法</li><li>デルファイ法</li><li>モンテカルロ法</li></ul>

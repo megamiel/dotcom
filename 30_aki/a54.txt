@@ -1,1 +1,0 @@
-<ul class="selectList"><li>開発者数</li><li>画面数</li><li>プログラムステップ数</li><li>利用者数</li></ul>
