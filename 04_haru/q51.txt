@@ -1,1 +1,0 @@
-<div class="sentence">ある組織では，プロジェクトのスケジュールとコストの管理にアーンドバリューマネジメントを用いている。期間10日間のプロジェクトの，5日目の終了時点の状況は表のとおりである。この時点でのコスト効率が今後も続くとしたとき，完成時総コスト見積り(EAC)は何万円か。<div class="img_margin"><img alt="51.gif" src="https://www.ap-siken.com/kakomon/04_haru/img/51.gif"/></div></div>

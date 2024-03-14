@@ -1,1 +1,0 @@
-<ul class="selectList"><li>スプリント</li><li>スプリントレトロスペクティブ</li><li>バックログ</li><li>ベロシティ</li></ul>

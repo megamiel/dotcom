@@ -1,1 +1,0 @@
-<ul class="selectList"><li>医療機関のカルテ情報</li><li>企業の顧客情報</li><li>企業の財務情報</li><li>自治体の住民情報</li></ul>

@@ -1,1 +1,0 @@
-<div class="sentence">複数のシステムやサービスの間で利用されるSAML(Security Assertion Markup Language)はどれか。</div>

@@ -1,1 +1,0 @@
-<div class="sentence" id="kaisetsu"><ul class="selectList"><li class="lia">脆弱性の定義です。</li><li class="lii">正しい。リスクレベルの定義です。リスクは影響度と発生確率の積で大きさを見積もります。</li><li class="liu">この記述に対応する用語はありません。</li><li class="lie">リスク基準の定義です。</li></ul></div>
