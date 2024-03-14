@@ -1,0 +1,1 @@
+<ul class="selectList"><li>EUC-JP</li><li>ISO-2022-JP</li><li>Shift-JIS</li><li>UTF-16</li></ul>
