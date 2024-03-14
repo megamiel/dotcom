@@ -13,12 +13,12 @@ write(1);
 function copy(event, index) {
     event.preventDefault();
     var prompt = "/*prompt:" + numStr[Math.floor(diffDays / 3)] + " " + subsStr[diffDays % 3 * 2 + index]+"*/\n";
-    prompt += "document.getElementsByName('check_all')[1].click();document.getElementsByName('check_all')[3].click();"
+    prompt += "document.getElementsByName('check_all')[1].click();document.getElementsByName('check_all')[3].click();";
     var exam = Math.floor(diffDays / 3);
     var sub = subIds[diffDays % 3 * 2 + index];
-    prompt += "document.getElementsByName('times[]')[" + exam + "].click();"
-    prompt += "document.getElementsByName('categories[]')[" + sub + "].click();"
-    prompt+="document.getElementsByClassName('submit')[0].click();"
+    prompt += "document.getElementsByName('times[]')[" + exam + "].click();";
+    prompt += "document.getElementsByName('categories[]')[" + sub + "].click();";
+    prompt += "document.getElementsByClassName('submit')[0].click();";
     copyToClipboard(prompt);
     localStorage.setItem("extm", numStr[exam]);
     localStorage.setItem("subj", subsStr[diffDays%3*2+index]);
