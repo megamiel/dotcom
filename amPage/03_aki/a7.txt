@@ -1,1 +1,0 @@
-<ul class="selectList"><li>ECMAScript</li><li>JavaScript</li><li>TypeScript</li><li>VBScript</li></ul>

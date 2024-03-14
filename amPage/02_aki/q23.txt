@@ -1,1 +1,0 @@
-<div class="sentence">次の表に示す値が格納されたLUT(Lookup Table)と等価な回路はどれか。ここで，LUTのアドレス信号A<sub>2</sub>～A<sub>0</sub>はA<sub>0</sub>がLSBで，ア～エの回路の入力信号aがA<sub>2</sub>，bがA<sub>1</sub>，cがA<sub>0</sub>に対応する。<div class="img_margin"><img alt="23.gif" src="https://www.ap-siken.com/kakomon/02_aki/img/23.gif"/></div></div>

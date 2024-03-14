@@ -1,1 +1,0 @@
-<div class="sentence">ITIL 2011 editionによれば，サービス・ポートフォリオの説明のうち，適切なものはどれか。</div>

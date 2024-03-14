@@ -1,1 +1,0 @@
-<ul class="selectList"><li>2001:db8::3ab::ff01</li><li>2001:db8::3ab:ff01</li><li>2001:db8.3ab:ff01</li><li>2001.db8.3ab.ff01</li></ul>

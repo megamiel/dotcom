@@ -1,1 +1,0 @@
-<div class="sentence">WAFによる防御が有効な攻撃として，最も適切なものはどれか。</div>

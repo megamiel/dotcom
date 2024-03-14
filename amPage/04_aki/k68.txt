@@ -1,1 +1,0 @@
-<div class="sentence" id="kaisetsu"><strong>ターゲットリターン価格</strong>とは、コスト志向型の価格設定法で、目標とする投資収益率(ROI)を達成するために得るべき金額を計算し、それを原価に加えて販売価格とする方法です。目標収益法ともいいます。<br/><br/>　ターゲットリターン価格＝原価＋{(投下資本×目標収益率)÷販売数量}<ul class="selectList"><li class="lia">実勢価格の説明です。</li><li class="lii">差別価格の説明です。</li><li class="liu">正しい。ターゲットリターン価格設定の説明です。</li><li class="lie">知覚価値価格の説明です。</li></ul></div>

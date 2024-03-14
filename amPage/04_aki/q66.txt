@@ -1,1 +1,0 @@
-<div class="sentence">"情報システム・モデル取引・契約書＜第二版＞"によれば，ウォーターフォールモデルによるシステム開発において，ユーザー(取得者)とベンダー(供給者)間で請負型の契約が適切であるとされるフェーズはどれか。<div class="img_margin"><img alt="66.gif" src="https://www.ap-siken.com/kakomon/04_aki/img/66.gif"/></div></div>

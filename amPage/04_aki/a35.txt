@@ -1,1 +1,0 @@
-<ul class="selectList"><li>クエリ文字列(id=user)の直後<br/>https://www.example.com/member/login?id=user:8080</li><li>スキーム(https)の直後<br/>https:8080://www.example.com/member/login?id=user</li><li>パス(/member/login)の直後<br/>https://www.example.com/member/login:8080?id=user</li><li>ホスト名(www.example.com)の直後<br/>https://www.example.com:8080/member/login?id=user</li></ul>

@@ -1,1 +1,0 @@
-<ul class="selectList"><li>レディ</li><li>高速運転</li><li>低速運転</li><li>一時停止</li></ul>

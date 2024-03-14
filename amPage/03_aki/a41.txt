@@ -1,1 +1,0 @@
-<ul class="selectList"><li>CVSS</li><li>ISMS</li><li>PCI DSS</li><li>PMS</li></ul>

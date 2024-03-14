@@ -1,1 +1,0 @@
-<ul class="selectList"><li>キュー</li><li>セマフォ</li><li>マルチスレッド</li><li>ラウンドロビン</li></ul>

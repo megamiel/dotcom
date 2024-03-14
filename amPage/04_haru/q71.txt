@@ -1,1 +1,0 @@
-<div class="sentence">XBRLで主要な取扱いの対象とされている情報はどれか。</div>

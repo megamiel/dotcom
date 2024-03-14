@@ -1,1 +1,0 @@
-<ul class="selectList"><li>a＋bがnの倍数</li><li>a－bがnの倍数</li><li>nがa＋bの倍数</li><li>nがa－bの倍数</li></ul>

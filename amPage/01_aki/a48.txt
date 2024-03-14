@@ -1,1 +1,0 @@
-<ul class="selectList"><li>インスペクション</li><li>ウォークスルー</li><li>パスアラウンド</li><li>ペアプログラミング</li></ul>

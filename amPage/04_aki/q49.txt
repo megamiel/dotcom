@@ -1,1 +1,0 @@
-<div class="sentence">エクストリームプログラミング(XP:Extreme Programming)における"テスト駆動開発"の特徴はどれか。</div>

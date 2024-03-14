@@ -1,1 +1,0 @@
-<div class="sentence">アローダイアグラムで表される作業A～Hを見直したところ，作業Dだけが短縮可能であり，その所要日数は6日間に短縮できることが分かった。作業全体の所要日数は何日間短縮できるか。<div class="img_margin"><img alt="52.gif" src="https://www.ap-siken.com/kakomon/01_aki/img/52.gif"/></div></div>

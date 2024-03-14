@@ -1,1 +1,0 @@
-<ul class="selectList"><li><span class="ol">A</span>－B</li><li>(<span class="ol">A</span>∪<span class="ol">B</span>)－(A∩B)</li><li>(S－A)∪(S－B)</li><li>S－(A∩B)</li></ul>

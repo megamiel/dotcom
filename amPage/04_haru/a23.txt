@@ -1,1 +1,0 @@
-<ul class="selectList"><li>ESD(Electrostatic Discharge)に対する耐性を強化する。</li><li>チップ検査終了後に検査用パッドを残しておく。</li><li>チップ内部を物理的に解析しようとすると，内部回路が破壊されるようにする。</li><li>内部メモリの物理アドレスを整然と配置する。</li></ul>

@@ -1,1 +1,0 @@
-<ul class="selectList"><li>エラーログ取得機能</li><li>記憶装置のビット誤り訂正機能</li><li>命令再試行機能</li><li>予防保全</li></ul>

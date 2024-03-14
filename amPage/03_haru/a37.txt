@@ -1,1 +1,0 @@
-<ul class="selectList"><li>HTTPレスポンスヘッダにX-Content-Type-Optionsを設定する。</li><li>HTTPレスポンスヘッダにX-Frame-Optionsを設定する。</li><li>入力にHTMLタグが含まれていたら，HTMLタグとして解釈されないほかの文字列に置き換える。</li><li>入力文字数が制限を超えているときは受け付けない。</li></ul>

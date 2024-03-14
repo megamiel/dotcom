@@ -1,1 +1,0 @@
-<ul class="selectList"><li>オイラー法</li><li>ガウスの消去法</li><li>シンプソン法</li><li>ニュートン法</li></ul>

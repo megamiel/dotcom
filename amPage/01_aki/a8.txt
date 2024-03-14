@@ -1,1 +1,0 @@
-<ul class="selectList"><li>基数ソート</li><li>クイックソート</li><li>選択ソート</li><li>挿入ソート</li></ul>

@@ -1,1 +1,0 @@
-<div class="sentence">図は，定量発注方式を運用する際の費用と発注量の関係を示したものである。図中の③を表しているものはどれか。ここで， 1回当たりの発注量をQ，1回当たりの発注費用をC，1単位当たりの年間保管費用をH，年間需要量をRとする。また，選択肢ア～エのそれぞれの関係式は成り立っている。<div class="img_margin"><img alt="75.gif" src="https://www.ap-siken.com/kakomon/02_aki/img/75.gif"/></div></div>

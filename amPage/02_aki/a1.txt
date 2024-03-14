@@ -1,1 +1,0 @@
-<ul class="selectList"><li>D≒2log<sub>10</sub>B</li><li>D≒10log<sub>2</sub>B</li><li>D≒Blog<sub>2</sub>10</li><li>D≒Blog<sub>10</sub>2</li></ul>

@@ -1,1 +1,0 @@
-<div class="sentence">TPM(Trusted Platform Module)に該当するものはどれか。</div>

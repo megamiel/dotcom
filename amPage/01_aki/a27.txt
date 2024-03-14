@@ -1,1 +1,0 @@
-<ul class="selectList"><li>CASCADE</li><li>INTERSECT</li><li>RESTRICT</li><li>UNIQUE</li></ul>

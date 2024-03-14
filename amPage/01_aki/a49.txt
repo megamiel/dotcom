@@ -1,1 +1,0 @@
-<ul class="selectList"><li>エクストリームプログラミング</li><li>スクラム</li><li>フィーチャ駆動型開発</li><li>リーンソフトウェア開発</li></ul>

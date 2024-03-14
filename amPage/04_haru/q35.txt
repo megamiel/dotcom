@@ -1,1 +1,0 @@
-<div class="sentence">OpenFlowを使ったSDN(Software-Defined Networking)に関する記述として，適切なものはどれか。</div>

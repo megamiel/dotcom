@@ -1,1 +1,0 @@
-<div class="sentence">新製品の設定価格とその価格での予測需要との関係を表にした。最大利益が見込める新製品の設定価格はどれか。ここで，いずれの場合にも，次の費用が発生するものとする。<br/>　　固定費：1,000,000円<br/>　　変動費：600円／個<div class="img_margin"><img alt="76.gif" src="https://www.ap-siken.com/kakomon/04_haru/img/76.gif"/></div></div>

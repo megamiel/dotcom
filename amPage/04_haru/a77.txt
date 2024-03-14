@@ -1,1 +1,0 @@
-<ul class="selectList"><li>A社とB社が話し合って帰属先を決定する。</li><li>A社とB社の共有帰属となる。</li><li>A社に帰属する。</li><li>B社に帰属する。</li></ul>

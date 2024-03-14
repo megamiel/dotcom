@@ -1,1 +1,0 @@
-<div class="sentence">流れ図で示したモジュールを表の二つのテストケースを用いてテストしたとき，テストカバレージ指標であるC<sub>0</sub>(命令網羅)とC<sub>1</sub>(分岐網羅)とによる網羅率の適切な組みはどれか。ここで，変数V～変数Zの値は，途中の命令で変更されない。<div class="img_margin"><img alt="48.gif" src="https://www.ap-siken.com/kakomon/04_aki/img/48.gif"/></div></div>

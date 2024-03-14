@@ -1,1 +1,0 @@
-<div class="sentence">図は，実施する三つのアクティビティについて，プレシデンスダイアグラム法を用いて，依存関係及び必要な作業日数を示したものである。全ての作業を完了するのに必要な日数は最少で何日か。<div class="img_margin"><img alt="53.gif" src="https://www.ap-siken.com/kakomon/02_aki/img/53.gif"/></div></div>

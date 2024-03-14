@@ -1,1 +1,0 @@
-<ul class="selectList"><li>一貫性</li><li>可用性</li><li>原子性</li><li>耐久性</li></ul>

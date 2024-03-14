@@ -1,1 +1,0 @@
-<ul class="selectList"><li>完全化保守</li><li>是正保守</li><li>適応保守</li><li>予防保守</li></ul>

@@ -1,1 +1,0 @@
-<ul class="selectList"><li>20</li><li>40</li><li>80</li><li>640</li></ul>

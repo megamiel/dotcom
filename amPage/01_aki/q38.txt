@@ -1,1 +1,0 @@
-<div class="sentence">チャレンジレスポンス認証方式の特徴はどれか。</div>

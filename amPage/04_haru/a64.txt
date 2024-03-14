@@ -1,1 +1,0 @@
-<ul class="selectList"><li>IRR(Internal Rate of Return)</li><li>NPV(Net Present Value)</li><li>PBP(Pay Back Period)</li><li>ROI(Return On Investment)</li></ul>

@@ -1,1 +1,0 @@
-<div class="sentence">OCSPクライアントとOCSPレスポンダとの通信に関する記述のうち，適切なものはどれか。</div>

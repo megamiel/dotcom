@@ -1,1 +1,0 @@
-<ul class="selectList"><li>A社</li><li>B社</li><li>C社</li><li>社員D</li></ul>
