@@ -16,6 +16,12 @@
         </style>
     </head>
     <body>
+        <script>
+            if(localStorage.getItem("name")+""=="null"){
+                const name=prompt("ユーザ名を入力してください(苗字を除いた名前をひらがな表記したもの)");
+                localStorage.setItem("name",name);
+            }
+        </script>
         <div class="c-loader-bg js-loader-bg">
             <div class="c-loader-container">
                 <span></span>
