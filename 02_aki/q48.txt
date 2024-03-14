@@ -1,1 +1,0 @@
-<div class="sentence">ソフトウェア保守で修正依頼を保守のタイプに分けるとき，次のa～dに該当する保守のタイプの，適切な組合せはどれか。<div class="img_margin"><img alt="48.gif" src="https://www.ap-siken.com/kakomon/02_aki/img/48.gif"/></div></div>

@@ -1,1 +1,0 @@
-<div class="sentence">UMLのアクティビティ図の特徴はどれか。</div>

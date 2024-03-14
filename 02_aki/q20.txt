@@ -1,1 +1,0 @@
-<div class="sentence">SRAMと比較した場合のDRAMの特徴はどれか。</div>

@@ -1,1 +1,0 @@
-<div class="sentence">認証局が発行するCRLに関する記述のうち，適切なものはどれか。</div>

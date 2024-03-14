@@ -1,1 +1,0 @@
-<div class="sentence">UMLを用いて表した図のデータモデルから，"部品"表，"納入"表及び"メーカー"表を関係データベース上に定義するときの解釈のうち，適切なものはどれか。<div class="img_margin"><img alt="27.gif" src="https://www.ap-siken.com/kakomon/02_aki/img/27.gif"/></div></div>
