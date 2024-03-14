@@ -1,1 +1,0 @@
-<div class="sentence">リーダーに求められる機能としてPM理論がある。P機能(Performance function)が大きく，M機能(Maintenance function)が小さいリーダーのタイプはどれか。</div>

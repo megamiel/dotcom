@@ -1,1 +1,0 @@
-<div class="sentence" id="kaisetsu"><strong>SoC</strong>(System on a Chip)は、1つの半導体チップ上にシステムに必要な一連の機能を集積する回路の設計方法です。SoCには「占有面積の削減」「高速化」「低消費電力化」「コスト削減」などのメリットがあるとされています。<ul class="selectList"><li class="lia">マイクロコントローラーの説明です。</li><li class="lii">チップセットの説明です。</li><li class="liu">SiP(System In Package)の説明です。</li><li class="lie">正しい。SoCの説明です。</li></ul></div>

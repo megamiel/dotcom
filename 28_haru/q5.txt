@@ -1,1 +1,0 @@
-<div class="sentence">A，B，Cの順序で入力されるデータがある。各データについてスタックへの挿入と取出しを1回ずつ行うことができる場合，データの出力順序は何通りあるか。<div class="img_margin"><img alt="05.gif" src="https://www.ap-siken.com/kakomon/28_haru/img/05.gif"/></div></div>

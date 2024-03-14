@@ -1,1 +1,0 @@
-<div class="sentence">並列処理方式であるSIMDの説明として，適切なものはどれか。</div>

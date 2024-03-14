@@ -1,1 +1,0 @@
-<div class="sentence" id="kaisetsu">10進数123を26で割ると、商と余りは以下のようになります。<br/><br/>　123÷26＝4余り19<br/><br/>つまり10進数123は、(26<sup>1</sup>×4)＋19と表せます。英字と数字は以下のように対応しているため、各桁を4→E，19→Tと置き換えると26進数「ET」になります。したがって「ウ」が正解です。<div class="img_margin"><img alt="02.gif" src="https://www.ap-siken.com/kakomon/28_haru/img/02.gif"/></div></div>

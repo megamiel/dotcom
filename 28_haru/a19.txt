@@ -1,1 +1,0 @@
-<ul class="selectList"><li>残余処理時間順</li><li>到着順</li><li>優先度順</li><li>ラウンドロビン</li></ul>

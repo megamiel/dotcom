@@ -1,1 +1,0 @@
-<div class="sentence" id="kaisetsu">プロジェクトと定常業務には以下の違いがあります。<dl><dt>プロジェクト</dt><dd>独自の製品、サービス、所産を創造するために実施される有期性の業務</dd><dt>定常業務</dt><dd>常設の組織形態の下で、決められた作業を反復して行う業務</dd></dl><div class="img_margin"><img alt="52.gif" src="https://www.ap-siken.com/kakomon/28_haru/img/52.gif"/></div>上記の表から考えると「イ」のみが定常業務の特性、その他はプロジェクトの特性に分類できます。</div>

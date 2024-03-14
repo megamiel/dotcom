@@ -1,1 +1,0 @@
-<div class="sentence" id="kaisetsu">ITサービスメネジメントにおける<strong>構成管理</strong>は、すべてのIT資産を明確化し、これらの維持管理や他のプロセスが効率的なサービスを提供できるように構成情報の提供を行うプロセスです。<ul class="selectList"><li class="lia">キャパシティ管理の導入メリットです。</li><li class="lii">サービス継続及び可用性管理の導入メリットです。</li><li class="liu">正しい。構成管理の導入メリットです。</li><li class="lie">サービスレベル管理の導入メリットです。</li></ul></div>

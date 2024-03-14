@@ -1,1 +1,0 @@
-<ul class="selectList"><li>排他的論理和</li><li>排他的論理和の否定</li><li>論理積の否定</li><li>論理和の否定</li></ul>

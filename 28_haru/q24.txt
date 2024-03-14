@@ -1,1 +1,0 @@
-<div class="sentence">SoC(System on a Chip)の説明として，適切なものはどれか。</div>

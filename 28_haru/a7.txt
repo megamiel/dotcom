@@ -1,1 +1,0 @@
-<ul class="selectList"><li>リエントラント</li><li>リカーシブ</li><li>リユーザーブル</li><li>リロケータブル</li></ul>

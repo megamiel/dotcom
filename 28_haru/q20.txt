@@ -1,1 +1,0 @@
-<div class="sentence">メインプログラムを実行した後，メインプログラムの変数X，Yの値はいくつになるか。ここで，仮引数Xは値呼出し(call by value)，仮引数Yは参照呼出し(call by reference)であるとする。<div class="img_margin"><img alt="20.gif" src="https://www.ap-siken.com/kakomon/28_haru/img/20.gif"/></div></div>

@@ -1,1 +1,0 @@
-<ul class="selectList"><li>BCD</li><li>DCB</li><li>ET</li><li>TE</li></ul>
