@@ -1,0 +1,1 @@
+<div class="sentence">"部門別売上別"表から，部門コードごと，期ごとの売上を得るSQL文はどれか。<div class="img_margin"><img alt="29.gif" src="https://www.ap-siken.com/kakomon/03_aki/img/29.gif"/></div></div>

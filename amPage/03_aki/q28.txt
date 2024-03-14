@@ -1,0 +1,1 @@
+<div class="sentence">受注入力システムによって作成される次の表に関する記述のうち，適切なものはどれか。受注番号は受注ごとに新たに発行される番号であり，項番は1回の受注で商品コード別に連番で発行される番号である。なお，単価は商品コードによって一意に定まる。<div class="img_margin"><img alt="28.gif" src="https://www.ap-siken.com/kakomon/03_aki/img/28.gif"/></div></div>
