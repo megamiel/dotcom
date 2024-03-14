@@ -1,0 +1,1 @@
+<div class="sentence" id="kaisetsu"><b>ターンアラウンドタイム</b>とは、利用者がシステムに処理要求を開始してから、すべての結果を受け取るまでに要する時間のことです。<br/><br/>設問の条件に従い、ジョブA～Cが実行される様子を図で表すと次のようになります。<div class="img_margin"><img alt="16a.gif" src="https://www.ap-siken.com/kakomon/03_haru/img/16a.gif"/></div>ジョブCの到着は処理開始時点から3秒後、ジョブCの完了は処理開始時点から14秒後なので、ターンアラウンドタイムは「14秒－3秒＝<em class="r">11秒</em>」になります。</div>
