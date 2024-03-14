@@ -20,6 +20,8 @@ function copy(event, index) {
     prompt += "document.getElementsByName('categories[]')[" + sub + "].click();"
     prompt+="document.getElementsByClassName('submit')[0].click();"
     copyToClipboard(prompt);
+    localStorage.setItem("extm", numStr[exam]);
+    localStorage.setItem("subj", subsStr[diffDays%3*2+index]);
     window.open("https://www.ap-siken.com/apkakomon_pm.php");
 }
 
