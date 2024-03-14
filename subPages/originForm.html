@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>学習結果入力フォーム</title>
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+        * {
+            color: #cccccc;
+            font-family: "クラフト明朝";
+            margin: 0;
+            padding: 0;
+            font-size: 26px;
+            cursor: default;
+        }
+
+        body {
+            background: rgb(40, 40, 100);
+        }
+
+        main{
+            margin-left:25%;
+            margin-right:25%;
+        }
+
+        div>label>input{
+            margin-top:2%;
+            margin-bottom:2%;
+            transform:scale(2.0);
+            margin-left:3%;
+        }
+
+        div>label{
+            user-select:none;
+        }
+
+        select {
+            color: black;
+            height:36px;
+        }
+
+        option{
+            padding:0%;
+            color:black;
+        }
+
+        fieldset{
+            padding:3%;
+            margin-bottom:3%;
+            border-radius: 10px;
+        }
+
+        legend{
+            font-size:32px;
+        }
+
+        .header > h3 {
+            min-width: 100vh;
+            margin:0;
+            font-family: "クラフト明朝";
+            font-size: 48px;
+            text-align: center;
+            background-color: #ffa500;
+            color: black;
+        }
+
+        .header > p{
+            margin-top:1%;
+            margin-bottom:3%;
+            text-align: center;
+        }
+
+        input[type="text"] {
+            font-family: "クラフト明朝";
+            margin: 0;
+            margin-left:3%;
+            padding-left: 1%;
+            background: rgb(40, 40, 100);
+            border: 1px solid white;
+            border-radius: 5px;
+            font-size: 26px;
+        }
+
+        textarea {
+            background: transparent;
+            padding: 1rem 0;
+            border: 0;
+            resize: none;
+            width: 100%;
+            height: 128px;
+            outline: 1px solid transparent;
+            background: var(--text);
+            background-clip: text;
+            caret-shape: underscore;
+            background-attachment: fixed;
+            caret-color: var(--color);
+            padding-left: 1%;
+            background: rgb(40, 40, 100);
+            border: 1px solid white;
+            border-radius: 20px;
+            font-size: 26px;
+            overflow-y: scroll;
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+
+        textarea::-webkit-scrollbar {
+            display: none;
+        }
+
+        textarea:focus {
+            border-color: #ffa500;
+        }
+
+        .submit {
+            width: 6em;
+            height: 50px;
+            font-size:18px;
+            border-radius: 7px;
+            color:black;
+            background-color: #ffa500;
+        }
+    </style>
+
+<body>
+    <br><br>
+    <main>
+        <div class="header">
+            <h3>学習結果入力フォーム</h3>
+            <p>応用情報の過去問を解いた結果を報告するフォームです</p>
+        </div>
+        <form action="https://docs.google.com/forms/u/3/d/e/1FAIpQLSccJ1hQRwpmEFCGFD735x0JPAipo4F5o4Vr3hsli9SYRY8-nw/formResponse" method="POST">
+            <div>
+                <fieldset>
+                    <legend>名前を選択してください</legend>
+                    <div><label><input type="radio" name="entry.2076022551" value="ゆうしん" />　ゆうしん</label></div>
+                    <div><label><input type="radio" name="entry.2076022551" value="あかり" />　あかり</label></div>
+                    <div><label><input type="radio" name="entry.2076022551" value="だん" />　だん</label></div>
+                    <div><label><input type="radio" name="entry.2076022551" value="まさき" />　まさき</label></div>
+                    <div><label><input type="radio" name="entry.2076022551" value="れんたろう" />　れんたろう</label></div>
+                    <div><label><input type="radio" name="entry.2076022551" value="そうま" />　そうま</label></div>
+                </fieldset>
+            </div>
+            <div>
+                <fieldset>
+                    <legend>試験回を選択してください</legend>
+                    <select name="entry.366340186">
+                        <option>- 選択 -</option>
+                        <option name="option">令和5年秋期</option>
+                        <option name="option">令和5年春期</option>
+                        <option name="option">令和4年秋期</option>
+                        <option name="option">令和4年春期</option>
+                        <option name="option">令和3年秋期</option>
+                        <option name="option">令和3年春期</option>
+                        <option name="option">令和2年秋期</option>
+                        <option name="option">令和元年秋期</option>
+                        <option name="option">平成31年春期</option>
+                        <option name="option">平成30年秋期</option>
+                        <option name="option">平成30年春期</option>
+                        <option name="option">平成29年秋期</option>
+                        <option name="option">平成29年春期</option>
+                        <option name="option">平成28年秋期</option>
+                        <option name="option">平成28年春期</option>
+                        <option name="option">平成27年秋期</option>
+                        <option name="option">平成27年春期</option>
+                        <option name="option">平成26年秋期</option>
+                        <option name="option">平成26年春期</option>
+                        <option name="option">平成25年秋期</option>
+                        <option name="option">平成25年春期</option>
+                        <option name="option">平成24年秋期</option>
+                        <option name="option">平成24年春期</option>
+                        <option name="option">平成23年秋期</option>
+                        <option name="option">平成23年特別</option>
+                        <option name="option">平成22年秋期</option>
+                        <option name="option">平成22年春期</option>
+                        <option name="option">平成21年秋期</option>
+                        <option name="option">平成21年春期</option>
+                    </select>
+                </fieldset>
+            </div>
+            <div>
+                <fieldset>
+                    <legend>学習科目を選択してください</legend>
+                    <div><label><input type="radio" name="entry.794497148" value="情報セキュリティ" />　情報セキュリティ</label></div>
+                    <div><label><input type="radio" name="entry.794497148" value="経営戦略" />　経営戦略</label></div>
+                    <div><label><input type="radio" name="entry.794497148" value="データベース" />　データベース</label></div>
+                    <div><label><input type="radio" name="entry.794497148" value="サービスマネジメント" />　サービスマネジメント</label></div>
+                    <div><label><input type="radio" name="entry.794497148" value="プロジェクトマネジメント" />　プロジェクトマネジメント</label></div>
+                    <div><label><input type="radio" name="entry.794497148" value="組込みシステム開発" />　組込みシステム開発</label></div>
+                    <div><label><input type="radio" name="entry.794497148" value="午前問題" />　午前問題</label></div>
+                </fieldset>
+            </div>
+            <div>
+                <fieldset>
+                    <legend>点数を入力してください</legend>
+                    <input type="text" autocomplete="off" name="entry.1528553638"/>
+                </fieldset>
+            </div>
+            <div>
+                <fieldset>
+                    <legend>用語・共有（任意）</legend>
+                    <textarea name="entry.531283974"></textarea>
+                </fieldset>
+            </div>
+            <div class="submit-btn">
+                <input class="submit" type="submit" value="送信" />
+            </div>
+        </form>
+    </main>
+    <br>
+    <script>
+        let nameData=localStorage.getItem("name");
+        let extmData=localStorage.getItem("extm");
+        let subjData=localStorage.getItem("subj");
+        if(nameData+""!="null"){
+            let names=document.getElementsByName("entry.2076022551");
+            names.forEach(n=>{
+                if(nameData==n.value){
+                    n.checked=true;
+                }
+            });
+        }
+        if(extmData+""!="null"){
+            let extms=document.getElementsByName("option");
+            extms.forEach(e=>{
+                if(extmData==e.value){
+                    e.selected=true;
+                }
+            });
+        }
+        if(subjData+""!="null"){
+            let subjs=document.getElementsByName("entry.794497148")
+            subjs.forEach(s=>{
+                if(subjData==s.value){
+                    s.checked=true;
+                }
+            });
+        }
+    </script>
+</body>
+</head>
