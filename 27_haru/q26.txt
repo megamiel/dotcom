@@ -1,1 +1,0 @@
-<div class="sentence">"電話番号"列にNULLを含む"取引先"表に対して，SQL文を実行した結果の行数は幾つか。<div class="img_margin"><img alt="26_1.gif" src="https://www.ap-siken.com/kakomon/27_haru/img/26_1.gif"/></div><div class="img_margin left"><img alt="26_2.gif" src="https://www.ap-siken.com/kakomon/27_haru/img/26_2.gif"/></div></div>

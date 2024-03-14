@@ -1,1 +1,0 @@
-<ul class="selectList"><li>企業間の取引の契約内容</li><li>システムの運用時間</li><li>伝送制御手順</li><li>メッセージの形式</li></ul>

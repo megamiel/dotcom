@@ -1,1 +1,0 @@
-<div class="sentence">NISTの定義によるクラウドサービスモデルのうち，クラウド利用企業の責任者がセキュリティ対策に関して表中の項番1と2の責務を負うが，項番3～5の責務を負わないものはどれか。<div class="img_margin"><img alt="42.gif" src="https://www.ap-siken.com/kakomon/27_haru/img/42.gif"/></div></div>

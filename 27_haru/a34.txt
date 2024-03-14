@@ -1,1 +1,0 @@
-<ul class="selectList"><li>1.95×10<sup>-8</sup></li><li>1.56×10<sup>-7</sup></li><li>1.95×10<sup>-5</sup> </li><li>1.56×10<sup>-4</sup></li></ul>

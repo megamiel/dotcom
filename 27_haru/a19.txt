@@ -1,1 +1,0 @@
-<ul class="selectList"><li>エミュレーター</li><li>クロスコンパイラ</li><li>最適化コンパイラ</li><li>プログラムジェネレーター</li></ul>

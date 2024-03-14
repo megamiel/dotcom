@@ -1,1 +1,0 @@
-<div class="sentence">DBMSに実装すべき原子性(atomicity)を説明したものはどれか。</div>

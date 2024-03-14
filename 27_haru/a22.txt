@@ -1,1 +1,0 @@
-<ul class="selectList"><li><img alt="22a.gif" src="https://www.ap-siken.com/kakomon/27_haru/img/22a.gif"/></li><li><img alt="22i.gif" src="https://www.ap-siken.com/kakomon/27_haru/img/22i.gif"/></li><li><img alt="22u.gif" src="https://www.ap-siken.com/kakomon/27_haru/img/22u.gif"/></li><li><img alt="22e.gif" src="https://www.ap-siken.com/kakomon/27_haru/img/22e.gif"/></li></ul>

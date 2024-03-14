@@ -1,1 +1,0 @@
-<ul class="selectList"><li>作業BとFを1日ずつ短縮する。</li><li>作業Bを1日短縮する。</li><li>作業Iを1日短縮する。</li><li>作業Jを1日短縮する。</li></ul>

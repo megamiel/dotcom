@@ -1,1 +1,0 @@
-<ul class="selectList"><li>2x＋4int(<span class="frac"><span>x</span>2</span>)</li><li>2x＋5int(<span class="frac"><span>x</span>2</span>)</li><li>2x－3int(<span class="frac"><span>x</span>2</span>)</li><li>2x－4int(<span class="frac"><span>x</span>2</span>)</li></ul>

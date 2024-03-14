@@ -1,1 +1,0 @@
-<ul class="selectList"><li>CURSOR </li><li>ORDER BY</li><li>UNION</li><li>UNIQUE</li></ul>

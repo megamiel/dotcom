@@ -1,1 +1,0 @@
-<div class="sentence">ノードN1とノードN2で通信を行うデータ伝送網がある。図のようにN1とN2間にノードNを入れてA案，B案で伝送網を構成したとき，システム全体の稼働率の比較として適切なものはどれか。ここで，各ノード間の経路(パス)の稼働率は，全て等しくρ(0＜ρ＜1)であるものとする。また，各ノードは故障しないものとする。<div class="img_margin"><img alt="15.gif" src="https://www.ap-siken.com/kakomon/27_haru/img/15.gif"/></div></div>

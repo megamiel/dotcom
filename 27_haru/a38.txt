@@ -1,1 +1,0 @@
-<ul class="selectList"><li>M<sup>n</sup></li><li><span class="frac"><span>M！</span>(M－n)！</span></li><li><span class="frac"><span>M！</span>n！(M－n)！</span></li><li><span class="frac"><span>(M＋n－1)！</span>n！(M－1)！</span></li></ul>
