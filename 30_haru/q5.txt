@@ -1,1 +1,0 @@
-<div class="sentence">非負の整数m，nに対して次のとおりに定義された関数 Ack(m，n) がある。Ack(1，3) の値はどれか。<div class="img_margin"><img alt="05.gif" src="https://www.ap-siken.com/kakomon/30_haru/img/05.gif"/></div></div>

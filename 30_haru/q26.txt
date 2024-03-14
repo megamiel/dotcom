@@ -1,1 +1,0 @@
-<div class="sentence">関係データベースのテーブルにレコードを1件追加したところ，インデックスとして使う，図のB<sup>+</sup>木のリーフノードCがノードC1とC2に分割された。ノード分割後のB<sup>+</sup>木構造はどれか。ここで，矢印はノードへのポインタとする。また，中間ノードAには十分な空きがあるものとする。<div class="img_margin"><img alt="26.gif" src="https://www.ap-siken.com/kakomon/30_haru/img/26.gif"/></div></div>

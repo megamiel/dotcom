@@ -1,1 +1,0 @@
-<div class="sentence" id="kaisetsu"><strong>クロス開発</strong>とは、プログラムを開発するマシン環境と実行するマシン環境が異なることをいいます。例えば、携帯電話上で動作させるソフトウェアや、組込みソフトウェアなどをPCで開発する場合がこれに該当します。<ul class="selectList"><li class="lia">ペアプログラミングの説明です。</li><li class="lii">ラウンドトリップ開発モデルの説明です。</li><li class="liu">正しい。クロス開発の説明です。</li><li class="lie">XDDP(eXtreme Derivative Development Process)の説明です。</li></ul></div>
