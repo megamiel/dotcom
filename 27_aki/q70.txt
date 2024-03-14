@@ -1,1 +1,0 @@
-<div class="sentence">IoT(Internet of Things)の実用例として，<b>適切でないもの</b>はどれか。</div>

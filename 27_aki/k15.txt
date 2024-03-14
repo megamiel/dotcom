@@ -1,1 +1,0 @@
-<div class="sentence" id="kaisetsu">稼働率を求める式は、<em class="r">MTBF／(MTBF＋MTTR)</em> です。<br/><br/>MTBFとMTTRが共に1.5倍になったとすると、<br/>　1.5MTBF／(1.5MTBF＋1.5MTTR)<br/>＝1.5MTBF／(1.5(MTBF＋MTTR))<br/>＝MTBF／(MTBF＋MTTR)<br/><br/>と式を変形できるので従来のシステムの稼働率と同じになることがわかります。<br/>よって正解は「イ」です。<br/><br/>MTBF(Mean Time Between Failures)＝平均故障間隔，<br/>MTTR(Mean Time To Repair)＝平均修復時間</div>

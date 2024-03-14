@@ -1,1 +1,0 @@
-<ul class="selectList"><li>(A∩B) ⊆ C</li><li>(A∩<span class="ol">B</span>) ⊆ C</li><li>(<span class="ol">A</span>∩B) ⊆ C</li><li>(<span class="ol">A</span>∩<span class="ol">B</span>) ⊆ C</li></ul>

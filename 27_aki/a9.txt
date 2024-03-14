@@ -1,1 +1,0 @@
-<ul class="selectList"><li>MIMD</li><li>MISD</li><li>SIMD</li><li>SISD</li></ul>

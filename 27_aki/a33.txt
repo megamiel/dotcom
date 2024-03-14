@@ -1,1 +1,0 @@
-<ul class="selectList"><li>IMAP4</li><li>POP3</li><li>SMTP</li><li>S/MIME</li></ul>

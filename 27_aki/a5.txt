@@ -1,1 +1,0 @@
-<ul class="selectList"><li>a と i</li><li>b と r</li><li>c と l</li><li>d と x</li></ul>

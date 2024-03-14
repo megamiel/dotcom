@@ -1,1 +1,0 @@
-<div class="sentence">図のように16ビットのデータを4×4の正方形状に並べ，行と列にパリティビットを付加することによって何ビットまでの誤りを訂正できるか。ここで，図の網掛け部分はパリティビットを表す。<div class="img_margin"><img alt="04.gif" src="https://www.ap-siken.com/kakomon/27_aki/img/04.gif"/></div></div>

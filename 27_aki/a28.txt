@@ -1,1 +1,0 @@
-<ul class="selectList"><li>B</li><li>{B，C}</li><li>{B，F}</li><li>{B，D，E}</li></ul>

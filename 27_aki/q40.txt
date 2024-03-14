@@ -1,1 +1,0 @@
-<div class="sentence">公開鍵暗号方式の暗号アルゴリズムはどれか。</div>

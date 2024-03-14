@@ -1,1 +1,0 @@
-<ul class="selectList"><li>N＝N<sub>A</sub>＋N<sub>B</sub>－N<sub>AB</sub></li><li>N＝N<sub>AB</sub>×N<sub>A</sub>×N<sub>B</sub></li><li>N＝(N<sub>A</sub>＋N<sub>B</sub>)／N<sub>AB</sub></li><li>N＝N<sub>A</sub>×N<sub>B</sub>／N<sub>AB</sub></li></ul>

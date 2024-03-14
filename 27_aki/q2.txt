@@ -1,1 +1,0 @@
-<div class="sentence">集合A，B，Cに対して<span class="ol">A∪B∪C</span>が空集合であるとき，包含関係として適切なものはどれか。ここで，∪は和集合を，∩は積集合を，<span class="ol">X</span>はXの補集合を，また，X⊆YはXがYの部分集合であることを表す。</div>

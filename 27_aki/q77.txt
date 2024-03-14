@@ -1,1 +1,0 @@
-<div class="sentence">表のような製品A，Bを製造，販売する場合，考えられる営業利益は最大で何円になるか。ここで，機械の年間使用可能時間は延べ15,000 時間とし，年間の固定費は製品A, Bに関係なく15,000,000円とする。<div class="img_margin"><img alt="77.gif" src="https://www.ap-siken.com/kakomon/27_aki/img/77.gif"/></div></div>
