@@ -1,1 +1,0 @@
-<ul class="selectList"><li>サーミスタ</li><li>超音波センサー</li><li>フォトトランジスタ</li><li>ポテンショメーター</li></ul>

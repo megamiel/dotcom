@@ -1,1 +1,0 @@
-<ul class="selectList"><li>OpenGL</li><li>PNG</li><li>SVG</li><li>TIFF</li></ul>

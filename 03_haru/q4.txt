@@ -1,1 +1,0 @@
-<div class="sentence">体温を測定するのに適切なセンサーはどれか。</div>

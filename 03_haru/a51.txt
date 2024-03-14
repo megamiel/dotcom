@@ -1,1 +1,0 @@
-<ul class="selectList"><li>スコープの定義</li><li>品質保証の遂行</li><li>プロジェクト憲章の作成</li><li>プロジェクトチームの編成</li></ul>

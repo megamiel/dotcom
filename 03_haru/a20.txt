@@ -1,1 +1,0 @@
-<ul class="selectList"><li>JavaEE仕様に準拠したアプリケーションサーバ</li><li>LinuxやWindowsなどの様々なプラットフォーム上で動作するWebサーバ</li><li>機能の豊富さが特徴のRDBMS</li><li>大規模なデータセットを分散処理するためのソフトウェアライブラリ</li></ul>

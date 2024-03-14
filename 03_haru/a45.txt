@@ -1,1 +1,0 @@
-<ul class="selectList"><li>a → b → c</li><li>a → c → b</li><li>b → a → c</li><li>c → a → b</li></ul>

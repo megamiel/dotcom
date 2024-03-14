@@ -1,1 +1,0 @@
-<div class="sentence">プロジェクトのスケジュールを短縮したい。当初の計画は図1のとおりである。作業Eを作業E1，E2，E3に分けて，図2のように計画を変更すると，スケジュールは全体で何日短縮できるか。<div class="img_margin"><img alt="53.gif" src="https://www.ap-siken.com/kakomon/03_haru/img/53.gif"/></div></div>

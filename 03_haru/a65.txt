@@ -1,1 +1,0 @@
-<ul class="selectList"><li>CSR</li><li>エコマーク認定</li><li>環境アセスメント</li><li>グリーン購入</li></ul>

@@ -1,1 +1,0 @@
-<div class="sentence">表は，RACIチャートを用いた，ある組織の責任分担マトリックスである。条件を満たすように責任分担を見直すとき，適切なものはどれか。<br/><br/>〔条件〕<ul><li>各アクティビティにおいて，実行責任者は1人以上とする。</li><li>各アクティビティにおいて，説明責任者は1人とする。</li></ul><div class="img_margin"><img alt="52.gif" src="https://www.ap-siken.com/kakomon/03_haru/img/52.gif"/></div></div>

@@ -1,1 +1,0 @@
-<ul class="selectList"><li>BLE(Bluetooth Low Energy)</li><li>LTE(LongTerm Evolution)</li><li>PLC(Power Line Communication)</li><li>PPP(Point-to-Point Protocol)</li></ul>
