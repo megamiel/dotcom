@@ -1,0 +1,1 @@
+<div class="sentence">投資効果を正味現在価値法で評価するとき，最も投資効果が大きい(又は損失が小さい)シナリオはどれか。ここで，期間は3年間，割引率は5%とし，各シナリオのキャッシュフローは表のとおりとする。<div class="img_margin"><img alt="64.gif" src="https://www.ap-siken.com/kakomon/04_aki/img/64.gif"/></div></div>

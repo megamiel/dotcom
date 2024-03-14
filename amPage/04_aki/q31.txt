@@ -1,0 +1,1 @@
+<div class="sentence">IPアドレスの自動設定をするためにDHCPサーバが設置されたLAN環境の説明のうち，適切なものはどれか。</div>
