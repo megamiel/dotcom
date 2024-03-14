@@ -1,0 +1,1 @@
+<ul class="selectList"><li>22.4</li><li>36.8</li><li>45.2</li><li>78.8</li></ul>

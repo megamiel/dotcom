@@ -1,0 +1,1 @@
+<ul class="selectList"><li>ガーベジコレクション</li><li>スタック</li><li>ヒープ</li><li>フラグメンテーション</li></ul>
