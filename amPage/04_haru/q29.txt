@@ -1,0 +1,1 @@
+<div class="sentence">undo/redo方式を用いた障害回復におけるログ情報の要否として，適切な組合せはどれか。</div>

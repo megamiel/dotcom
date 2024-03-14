@@ -1,0 +1,1 @@
+<div class="sentence">SOAの説明はどれか。</div>

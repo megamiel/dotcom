@@ -1,0 +1,1 @@
+<div class="sentence">ANSI/SPARC 3層スキーマモデルにおける内部スキーマの設計に含まれるものはどれか。</div>
