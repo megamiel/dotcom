@@ -115,5 +115,7 @@ function loanCopy(event, i) {
     prompt += "document.getElementsByName('categories[]')[" + sub + "].click();";
     prompt += "document.getElementsByClassName('submit')[0].click();";
     copyToClipboard(prompt);
+    localStorage.setItem("extm", numStr[Math.floor(i / 6)]);
+    localStorage.setItem("subj", subsStr[i%6]);
     window.open("https://www.ap-siken.com/apkakomon_pm.php");
 }
