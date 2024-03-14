@@ -131,6 +131,26 @@
                     <div class="field">
                         <div class="spacer"></div>
                         <p><a href="" target='_blank' onclick="window.open('subPages/gptStudy.html', '_blank', 'popup');">GPT-STUDY</a></p>
+                        <div class="spacer">　　&nbsp;</div>
+                        <p><a href="" id="betaForm">ベータ版 学習結果入力フォーム</a></p>
+                        <script>
+                            let betaForm = document.getElementById("betaForm");
+                            betaForm.onclick = event => {
+                                event.preventDefault();
+                                const url= "https://docs.google.com/forms/d/e/1FAIpQLSccJ1hQRwpmEFCGFD735x0JPAipo4F5o4Vr3hsli9SYRY8-nw/viewform?";
+                                const nameId="entry.2076022551=";
+                                const extmId="entry.366340186=";
+                                const subjId="entry.794497148=";
+                                const nameData = localStorage.getItem("name");
+                                const extmData=localStorage.getItem("extm");
+                                const subjData=localStorage.getItem("subj");
+                                let openUrl=url;
+                                if(nameData!=null&&extmData!=null&&subjData!=null){
+                                    openUrl+=nameId+nameData+"&"+extmId+extmData+"&"+subjId+subjData;
+                                }
+                                window.open(openUrl);
+                            }
+                        </script>
                     </div>
 
                     <br>
