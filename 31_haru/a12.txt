@@ -1,1 +1,0 @@
-<ul class="selectList"><li>①，③，②</li><li>②，①，③</li><li>③，①，②</li><li>③，②，①</li></ul>

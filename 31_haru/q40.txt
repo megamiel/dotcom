@@ -1,1 +1,0 @@
-<div class="sentence">DNSSECについての記述のうち，適切なものはどれか。</div>

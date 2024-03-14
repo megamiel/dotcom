@@ -1,1 +1,0 @@
-<div class="sentence">トランザクションのACID特性のうち，一貫性(consistency)の記述として，適切なものはどれか。</div>

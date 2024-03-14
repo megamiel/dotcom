@@ -1,1 +1,0 @@
-<ul class="selectList"><li>会社の利益</li><li>技術者個人の名誉</li><li>公衆の安全</li><li>コストの低減</li></ul>

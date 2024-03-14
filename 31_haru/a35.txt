@@ -1,1 +1,0 @@
-<ul class="selectList"><li>DMZ</li><li>フォワードプロキシ</li><li>プロキシARP</li><li>リバースプロキシ</li></ul>

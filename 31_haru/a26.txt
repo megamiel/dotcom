@@ -1,1 +1,0 @@
-<ul class="selectList"><li>概念スキーマ</li><li>外部スキーマ</li><li>サブスキーマ</li><li>内部スキーマ</li></ul>

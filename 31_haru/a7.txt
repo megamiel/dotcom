@@ -1,1 +1,0 @@
-<ul class="selectList"><li>DOM</li><li>JSON</li><li>SOAP</li><li>XML</li></ul>

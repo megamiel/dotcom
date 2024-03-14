@@ -1,1 +1,0 @@
-<ul class="selectList"><li>A</li><li>B</li><li>C</li><li>投資をしない</li></ul>

@@ -1,1 +1,0 @@
-<div class="sentence">稼働率の等しい装置を直列や並列に組み合わせたとき，システム全体の稼働率を高い順に並べたものはどれか。ここで，各装置の稼働率は0より大きく1未満である。<div class="img_margin"><img alt="13.gif" src="https://www.ap-siken.com/kakomon/31_haru/img/13.gif"/></div></div>

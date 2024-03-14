@@ -1,1 +1,0 @@
-<ul class="selectList"><li>ガバナンス</li><li>顧客</li><li>自社の強み</li><li>遵法</li></ul>
