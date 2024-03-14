@@ -1,1 +1,0 @@
-<ul class="selectList"><li>A 演算子 B</li><li>B 演算子 A</li><li>C 演算子 D</li><li>D 演算子 C</li></ul>

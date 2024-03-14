@@ -1,1 +1,0 @@
-<ul class="selectList"><li>回避</li><li>共有</li><li>受容</li><li>転嫁</li></ul>

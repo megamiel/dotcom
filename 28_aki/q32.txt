@@ -1,1 +1,0 @@
-<div class="sentence">TCP/IPネットワークにおけるARPの説明として，適切なものはどれか。</div>

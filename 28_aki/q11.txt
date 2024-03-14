@@ -1,1 +1,0 @@
-<div class="sentence">プロセッサの実行効率を上げる，VLIWの説明はどれか。</div>

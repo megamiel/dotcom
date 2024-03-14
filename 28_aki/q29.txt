@@ -1,1 +1,0 @@
-<div class="sentence">"サッカーチーム"表と"審判"表から，条件を満たす対戦を導出するSQL文のaに入れる字句はどれか。<br/><br/>〔条件〕<ul><li>出場チーム1のチーム名は出場チーム2のチーム名よりもアルファベット順で先にくる。</li><li>審判は，所属チームの対戦を担当することはできない。</li></ul><div class="img_margin"><img alt="29.gif" src="https://www.ap-siken.com/kakomon/28_aki/img/29.gif"/></div></div>

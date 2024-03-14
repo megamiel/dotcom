@@ -1,1 +1,0 @@
-<div class="sentence" id="kaisetsu"><ul class="selectList"><li class="lia">正しい。クラスタリング方式の特徴です。</li><li class="lii">ライブマイグレーション方式の説明です。</li><li class="liu">仮想マシン方式の特徴です。</li><li class="lie">パーティショニング方式の特徴です。</li></ul></div>

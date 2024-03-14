@@ -1,1 +1,0 @@
-<div class="sentence">受信した電子メールの送信元ドメインが詐称されていないことを検証する仕組みであるSPF(Sender Policy Framework)の特徴はどれか。</div>

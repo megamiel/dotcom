@@ -1,1 +1,0 @@
-<div class="sentence">あるプロジェクトの作業が図に従って計画されているとき，最短日数で終了するためには，作業Hはプロジェクトの開始から遅くとも何日後に開始しなければならないか。<div class="img_margin"><img alt="52.gif" src="https://www.ap-siken.com/kakomon/28_aki/img/52.gif"/></div></div>
