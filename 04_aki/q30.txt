@@ -1,0 +1,1 @@
+<div class="sentence">ACID特性の四つの性質に<u>含まれないもの</u>はどれか。</div>

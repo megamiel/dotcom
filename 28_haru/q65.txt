@@ -1,0 +1,1 @@
+<div class="sentence">BABOKの説明はどれか。</div>

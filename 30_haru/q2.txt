@@ -1,0 +1,1 @@
+<div class="sentence">表は，文字A～Eを符号化したときのビット表記と，それぞれの文字の出現確率を表したものである。1文字当たりの平均ビット数は幾らになるか。<div class="img_margin"><img alt="02.gif" src="https://www.ap-siken.com/kakomon/30_haru/img/02.gif"/></div></div>

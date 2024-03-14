@@ -1,0 +1,1 @@
+<div class="sentence">ZigBeeの説明として，適切なものはどれか。</div>

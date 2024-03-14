@@ -1,0 +1,1 @@
+<div class="sentence">図は，製品Aの構成部品を示し，括弧内の数字は上位の製品・部品1個当たりの所要数量である。この製品Aを10個生産する場合，部品Cは，少なくとも何個発注する必要があるか。ここで，現在の部品Bの在庫は0個，部品Cの在庫は5個である。<div class="img_margin"><img alt="72.gif" src="https://www.ap-siken.com/kakomon/30_haru/img/72.gif"/></div></div>

@@ -1,0 +1,1 @@
+<div class="sentence">TCP/IPネットワークにおけるRARPの機能として，適切なものはどれか。</div>

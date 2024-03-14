@@ -1,0 +1,1 @@
+<div class="sentence">JPCERT/CCの説明はどれか。</div>

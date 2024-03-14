@@ -1,0 +1,1 @@
+<div class="sentence">OpenPGPやS/MIMEにおいて用いられるハイブリッド暗号方式の特徴はどれか。</div>

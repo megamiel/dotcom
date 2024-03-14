@@ -1,0 +1,1 @@
+<div class="sentence">CMMIの説明はどれか。</div>

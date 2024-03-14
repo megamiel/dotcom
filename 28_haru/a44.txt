@@ -1,0 +1,1 @@
+<ul class="selectList"><li>DNSサーバに登録されている公開鍵を用いて署名を検証する。</li><li>DNSサーバにSPFレコードを問い合わせる。</li><li>POP before SMTPを使用して，メール送信者を認証する。</li><li>SMTP-AUTHを使用して，メール送信者を認証する。</li></ul>

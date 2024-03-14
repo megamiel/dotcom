@@ -1,0 +1,1 @@
+<div class="sentence" id="kaisetsu">各1つのCPUと磁気ディスク装置を使い、ジョブA→Bの順で処理をすると、CPUと磁気ディスクの使用状況は下の図で示すようになります。<div class="img_margin"><img alt="13_1.gif" src="https://www.ap-siken.com/kakomon/29_haru/img/13_1.gif"/></div>2つのジョブが終了するまでに要する時間は25秒で、そのうち色が付いている部分が機器を使用している時間です。<ul><li>CPUの使用率　15秒÷25秒＝0.60</li><li>磁気ディスク装置の使用率　17秒÷25秒＝0.68</li></ul>したがって「イ」の組合せが正解です。</div>

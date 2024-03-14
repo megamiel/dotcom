@@ -1,0 +1,1 @@
+<div class="sentence">0以上255以下の整数nに対して，<div class="img_margin"><img alt="01.gif" src="https://www.ap-siken.com/kakomon/31_haru/img/01.gif"/></div>と定義する。next(n)と等しい式はどれか。ここで，x AND y 及び x OR y は，それぞれxとyを2進数表現にして，桁ごとの論理積及び論理和をとったものとする。</div>

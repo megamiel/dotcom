@@ -1,0 +1,1 @@
+<div class="sentence">サンドボックス機構に該当するものはどれか。</div>

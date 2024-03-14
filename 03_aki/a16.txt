@@ -1,0 +1,1 @@
+<ul class="selectList"><li>スラッシング</li><li>スワップアウト</li><li>フラグメンテーション</li><li>ページフォールト</li></ul>

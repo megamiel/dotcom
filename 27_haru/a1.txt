@@ -1,0 +1,1 @@
+<ul class="selectList"><li><span class="frac"><span>ρ</span>1－ρ</span>×T<sub>s</sub></li><li><span class="frac"><span>ρ</span>1－2ρ</span>×T<sub>s</sub></li><li><span class="frac"><span>2ρ</span>1－ρ</span>×T<sub>s</sub></li><li><span class="frac"><span>2ρ</span>1－2ρ</span>×T<sub>s</sub></li></ul>

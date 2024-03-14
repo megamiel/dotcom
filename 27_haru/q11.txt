@@ -1,0 +1,1 @@
+<div class="sentence">RAID1～5の各構成は，何に基づいて区別されるか。</div>

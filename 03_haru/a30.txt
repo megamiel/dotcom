@@ -1,0 +1,1 @@
+<ul class="selectList"><li>ディメンジョンテーブル</li><li>統計情報</li><li>待ちグラフ</li><li>ログファイル</li></ul>

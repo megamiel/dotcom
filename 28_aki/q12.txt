@@ -1,0 +1,1 @@
+<div class="sentence">データベース(DB)へのアクセスを行うブラウザからのリクエスト処理を，Webサーバが受信し解読した後に行う一連の実行処理の順序はどれか。ここで，Webサーバはリクエスト処理ごとにDBへの接続と切断を行うものとする。<br/><br/>〔実行処理〕<ol class="maruList"><li class="maru1">DBの切断</li><li class="maru2">DBへのアクセス</li><li class="maru3">DBへの接続</li><li class="maru4">HTML文書の組立て</li><li class="maru5">SQL文の組立て</li><li class="maru6">ブラウザへの送信</li></ol></div>

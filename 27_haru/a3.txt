@@ -1,0 +1,1 @@
+<ul class="selectList"><li><span class="frac"><span>7</span>10</span></li><li><span class="frac"><span>178</span>245</span></li><li><span class="frac"><span>729</span>1000</span></li><li><span class="frac"><span>89</span>110</span></li></ul>

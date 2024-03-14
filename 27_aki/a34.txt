@@ -1,0 +1,1 @@
+<ul class="selectList"><li>～a＆m</li><li>～a｜m</li><li>a＆～m</li><li>a｜～m</li></ul>

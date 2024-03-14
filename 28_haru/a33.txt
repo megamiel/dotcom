@@ -1,0 +1,1 @@
+<ul class="selectList"><li>ゲートウェイ</li><li>ブリッジ</li><li>リピータ</li><li>ルータ</li></ul>

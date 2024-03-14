@@ -1,0 +1,1 @@
+<ul class="selectList"><li>(n＋1) AND 255</li><li>(n＋1) AND 256</li><li>(n＋1) OR 255</li><li>(n＋1) OR 256</li></ul>

@@ -1,0 +1,1 @@
+<div class="sentence" id="kaisetsu"><strong>EVM</strong>(Earned Value Management)は、プロジェクトにおける作業を金銭の価値に置き換えて、<em class="r">コスト</em>と<em class="r">スケジュール</em>の2つを定量的に管理する進捗管理手法です。<br/><br/>EVMでは予算値と実績値からPV、EV、ACの各指標を算出し、それぞれを比較することでコスト差異とスケジュール差異を把握します。したがって「ア」の組合せが適切です。<div class="img_margin"><img alt="52.gif" src="https://www.ap-siken.com/kakomon/27_aki/img/52.gif"/></div></div>

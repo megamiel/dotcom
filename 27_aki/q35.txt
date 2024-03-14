@@ -1,0 +1,1 @@
+<div class="sentence">http://host.example.co.jp:8080/file で示されるURLの説明として，適切なものはどれか。</div>

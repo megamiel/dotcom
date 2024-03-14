@@ -1,0 +1,1 @@
+<ul class="selectList"><li>if n＝0 then 0 else return n×fact(n－1)</li><li>if n＝0 then 0 else return n×fact(n＋1)</li><li>if n＝0 then 1 else return n×fact(n－1)</li><li>if n＝0 then 1 else return n×fact(n＋1)</li></ul>

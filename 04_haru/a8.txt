@@ -1,0 +1,1 @@
+<ul class="selectList"><li>CISC</li><li>MIMD</li><li>RISC</li><li>VLIW</li></ul>

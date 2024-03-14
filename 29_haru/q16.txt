@@ -1,0 +1,1 @@
+<div class="sentence">4ブロック分のキャッシュメモリC0～C3が表に示す状態である。ここで，新たに別のブロックの内容をキャッシュメモリにロードする必要が生じたとき，C2のブロックを置換の対象とするアルゴリズムはどれか。<div class="img_margin"><img alt="16.gif" src="https://www.ap-siken.com/kakomon/29_haru/img/16.gif"/></div></div>

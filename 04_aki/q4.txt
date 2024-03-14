@@ -1,0 +1,1 @@
+<div class="sentence">AIにおける過学習の説明として，最も適切なものはどれか。</div>

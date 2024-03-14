@@ -1,0 +1,1 @@
+<div class="sentence">次のURLに対し，受理するWebサーバのポート番号(8080)を指定できる箇所はどれか。<br/>https://www.example.com/member/login?id=user</div>

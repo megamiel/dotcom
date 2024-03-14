@@ -1,0 +1,1 @@
+<ul class="selectList"><li>:8080 はプロキシサーバ経由で接続することを示している。</li><li>file はHTMLで作成されたWebページであることを示している。</li><li>host.example.co.jp は参照先のサーバが日本国内にあることを示している。</li><li>http: はプロトコルとしてHTTPを使用して参照することを示している。</li></ul>

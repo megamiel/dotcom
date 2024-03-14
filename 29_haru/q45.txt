@@ -1,0 +1,1 @@
+<div class="sentence">VPNで使用されるセキュアなプロトコルであるIPsec，L2TP，TLSの，OSI基本参照モデルにおける相対的な位置関係はどれか。<div class="img_margin"><img alt="45.gif" src="https://www.ap-siken.com/kakomon/29_haru/img/45.gif"/></div></div>

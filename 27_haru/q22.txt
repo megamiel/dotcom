@@ -1,0 +1,1 @@
+<div class="sentence">真理値表に示す3入力多数決回路はどれか。<div class="img_margin"><img alt="22.gif" src="https://www.ap-siken.com/kakomon/27_haru/img/22.gif"/></div></div>

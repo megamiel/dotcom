@@ -1,0 +1,1 @@
+<div class="sentence">WebシステムにおけるCDN(Contents Delivery Network)に関する記述として，適切なものはどれか。</div>

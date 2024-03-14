@@ -1,0 +1,1 @@
+<div class="sentence">3ビットのデータx<sub>1</sub>，x<sub>2</sub>，x<sub>3</sub>に偶数パリティビットcを付加する回路はどれか。</div>

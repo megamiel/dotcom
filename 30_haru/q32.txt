@@ -1,0 +1,1 @@
+<div class="sentence">ETSI(欧州電気通信標準化機構)によって提案されたNFV(Network Functions Virtualisation)に関する記述として，適切なものはどれか。</div>

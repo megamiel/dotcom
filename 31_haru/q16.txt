@@ -1,0 +1,1 @@
+<div class="sentence">五つのジョブA～Eに対して，ジョブの多重度が1で，処理時間順方式のスケジューリングを適用した場合，ジョブBのターンアラウンドタイムは何秒か。ここで，OSのオーバーヘッドは考慮しないものとする。<div class="img_margin"><img alt="16.gif" src="https://www.ap-siken.com/kakomon/31_haru/img/16.gif"/></div></div>

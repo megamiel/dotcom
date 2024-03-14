@@ -1,0 +1,1 @@
+<div class="sentence">"東京在庫"表と"大阪在庫"表に対して，SQL文を実行して得られる結果はどれか。ここで，実線の下線は主キーを表す。<div class="img_margin"><img alt="29.gif" src="https://www.ap-siken.com/kakomon/02_aki/img/29.gif"/></div>〔SQL文〕<br/>SELECT 商品コード，在庫数 FROM 東京在庫<br/>　　UNION ALL<br/>SELECT 商品コード，在庫数 FROM 大阪在庫</div>

@@ -1,0 +1,1 @@
+<ul class="selectList"><li>CSF(Critical Success Factor)の抽出</li><li>KGI(Key Goal Indicator)の設定</li><li>KPI(Key Performance Indicator)の設定</li><li>MBO(Management by Objectives)の導入</li></ul>

@@ -1,0 +1,1 @@
+<div class="sentence" id="kaisetsu"><strong>ヒープソート</strong>は、未整列データを「親の値≦子の値」(または「親の値≧子の値」)の関係をもつ順序木として表現し、整列後の根の値(最小値または最大値)を取り出すことを繰り返して整列を行う方法です。<ul class="selectList"><li class="lia">シェルソートの説明です。</li><li class="lii">クイックソートの説明です。</li><li class="liu">バブルソートの説明です。</li><li class="lie">正しい。ヒープソートの説明です。</li></ul></div>

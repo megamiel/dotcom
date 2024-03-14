@@ -1,0 +1,1 @@
+<div class="sentence">PMBOKガイド第5版によれば，定量的リスク分析で実施することはどれか。</div>

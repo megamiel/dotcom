@@ -1,0 +1,1 @@
+<div class="sentence" id="kaisetsu"><strong>XBRL</strong>(eXtensible Business Reporting Language)は、各種財務報告用の情報を電子化して作成・流通・利用できるように標準化されたXMLベースの言語です。国内では日本公認会計士協会等が中心となって設立したXBRL Japanが作成、普及、啓蒙活動を行っており、2005年7月20日にJIS化(JIS X 7206)されています。XBRLに対応した代表的なシステムに国税庁のe-Tax(電子申告・電子納税システム 財務諸表部分に使用)等があります。<br/><br/>XBRLが主に取り扱うのは「企業の財務情報」です。したがって「ウ」が正解です。</div>

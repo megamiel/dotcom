@@ -1,0 +1,1 @@
+<ul class="selectList"><li>EAI（Enterprise Application Integration）</li><li>EJB（Enterprise JavaBeans）</li><li>ERP（Enterprise Resource Planning）</li><li>UML（Unified Modeling Language）</li></ul>

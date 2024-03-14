@@ -1,0 +1,1 @@
+<div class="sentence">次の流れ図において，判定条件網羅(分岐網羅)を満たす最少のテストケースはどれか。<div class="img_margin"><img alt="47.gif" src="https://www.ap-siken.com/kakomon/04_haru/img/47.gif"/></div></div>

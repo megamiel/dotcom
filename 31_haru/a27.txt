@@ -1,0 +1,1 @@
+<ul class="selectList"><li>CONNECT文で接続を許可する。</li><li>CREATE ASSERTION文で表明して制限する。</li><li>CREATE TABLE文の参照制約で制限する。</li><li>GRANT文で許可する。</li></ul>

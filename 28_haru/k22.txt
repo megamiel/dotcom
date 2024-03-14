@@ -1,0 +1,1 @@
+<div class="sentence" id="kaisetsu"><strong>パワーゲーティング</strong>は、集積回路内の使用していない演算回路ブロックへの電源を遮断することでリーク電流の削減を図る技術です。<br/><br/>したがって「ウ」が正解です。<ul class="selectList"><li class="lia">マルチVddの説明です。</li><li class="lii">クロックゲーティングの説明です。</li><li class="liu">正しい。パワーゲーティングの説明です。</li><li class="lie">プロセス改良によるリーク電流対策の説明です。</li></ul></div>

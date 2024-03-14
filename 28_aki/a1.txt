@@ -1,0 +1,1 @@
+<ul class="selectList"><li><span class="ol">A・X</span></li><li><span class="ol">A・Y</span></li><li><span class="ol">A</span>・X</li><li><span class="ol">A</span>・Y</li></ul>

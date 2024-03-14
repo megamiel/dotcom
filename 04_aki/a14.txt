@@ -1,0 +1,1 @@
+<ul class="selectList"><li><span class="frac"><span>2</span>3</span></li><li>1.5</li><li>2.25</li><li>変わらない</li></ul>

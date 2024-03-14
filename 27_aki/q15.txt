@@ -1,0 +1,1 @@
+<div class="sentence">MTBFがx時間，MTTRがy時間のシステムがある。使用条件が変わったので，MTBF，MTTRがともに従来の1.5倍になった。新しい使用条件での稼働率はどうなるか。</div>

@@ -1,0 +1,1 @@
+<ul class="selectList"><li>系統図</li><li>散布図</li><li>特性要因図</li><li>パレート図</li></ul>

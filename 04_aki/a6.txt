@@ -1,0 +1,1 @@
+<ul class="selectList"><li>クイックソート</li><li>選択ソート</li><li>挿入ソート</li><li>バブルソート</li></ul>

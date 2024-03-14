@@ -1,0 +1,1 @@
+<div class="sentence">SPF(Sender Policy Framework)を利用する目的はどれか。</div>

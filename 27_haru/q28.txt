@@ -1,0 +1,1 @@
+<div class="sentence">"学生"表が次のSQL文で定義されているとき，検査制約の違反となるSQL文はどれか。<div class="img_margin left"><img alt="28_1.gif" src="https://www.ap-siken.com/kakomon/27_haru/img/28_1.gif"/></div><div class="img_margin"><img alt="28_2.gif" src="https://www.ap-siken.com/kakomon/27_haru/img/28_2.gif"/></div></div>

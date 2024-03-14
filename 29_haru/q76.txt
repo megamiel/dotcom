@@ -1,0 +1,1 @@
+<div class="sentence">いずれも時価100円の株式A～Dのうち，一つの株式に投資したい。経済の成長を高，中，低の三つに区分したときのそれぞれの株式の予想値上がり幅は，表のとおりである。マクシミン原理に従うとき，どの株式に投資することになるか。<div class="img_margin"><img alt="76.gif" src="https://www.ap-siken.com/kakomon/29_haru/img/76.gif"/></div></div>

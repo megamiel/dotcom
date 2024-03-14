@@ -1,0 +1,1 @@
+<div class="sentence">三つの資源X～Zを占有して処理を行う四つのプロセスA～Dがある。各プロセスは処理の進行に伴い，表中の数値の順に資源を占有し，実行終了時に三つの資源を一括して解放する。プロセスAとデッドロックを起こす可能性のあるプロセスはどれか。<div class="img_margin"><img alt="17.gif" src="https://www.ap-siken.com/kakomon/02_aki/img/17.gif"/></div></div>

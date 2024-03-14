@@ -1,0 +1,1 @@
+<div class="sentence">トランザクションA(処理A1→処理A2の順に実行する)とトランザクションB(処理B1→処理B2の順に実行する)が，データベースの資源SとTに対し，次のように 処理A1→処理B1→処理A2→処理B2 の順で専有ロックを要求する場合，デッドロックが発生する資源の組合せはどれか。<br/>　なお，ロックは処理開始時にかけ，トランザクション終了時に解除する。<div class="img_margin"><img alt="28.gif" src="https://www.ap-siken.com/kakomon/28_haru/img/28.gif"/></div></div>

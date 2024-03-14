@@ -1,0 +1,1 @@
+<div class="sentence" id="kaisetsu"><ul class="selectList"><li class="lia">開発検討フェーズの監査手続きです。</li><li class="lii">開発検討フェーズの監査手続きです。</li><li class="liu">正しい。移行判定フェーズの監査手続きです。</li><li class="lie">プログラムテストフェーズの監査手続きです。</li></ul></div>

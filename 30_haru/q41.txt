@@ -1,0 +1,1 @@
+<div class="sentence">内部ネットワークのPCからインターネット上のWebサイトを参照するときにDMZ上に用意したVDI(Virtual Desktop Infrastructure)サーバ上のWebブラウザを利用すると，未知のマルウェアがPCにダウンロードされて，PCが感染することを防ぐというセキュリティ上の効果が期待できる。この効果を生み出すVDIサーバの動作の特徴はどれか。</div>

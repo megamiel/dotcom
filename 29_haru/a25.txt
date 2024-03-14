@@ -1,0 +1,1 @@
+<ul class="selectList"><li>インデックスカラー</li><li>オーバーレイ</li><li>カーニング</li><li>ディザリング</li></ul>

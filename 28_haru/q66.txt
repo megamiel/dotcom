@@ -1,0 +1,1 @@
+<div class="sentence">表は，ビジネスプロセスをUMLで記述する際に使用される図法とその用途を示している。表中のbに相当する図法はどれか。ここで，ア～エは，a～dのいずれかに該当する。<div class="img_margin"><img alt="66.gif" src="https://www.ap-siken.com/kakomon/28_haru/img/66.gif"/></div></div>

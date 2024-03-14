@@ -1,0 +1,1 @@
+<ul class="selectList"><li>シストリックアレイ</li><li>デスクトップグリッド</li><li>ハイパーバイザ</li><li>モノリシックカーネル</li></ul>

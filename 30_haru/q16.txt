@@ -1,0 +1,1 @@
+<div class="sentence">4種類の装置で構成される次のシステムの稼働率は，およそ幾らか。ここで，アプリケーションサーバとデータベースサーバの稼働率は0.8であり，それぞれのサーバのどちらかが稼働していればシステムとして稼働する。また，負荷分散装置と磁気ディスク装置は，故障しないものとする。<div class="img_margin"><img alt="16.gif" src="https://www.ap-siken.com/kakomon/30_haru/img/16.gif"/></div></div>

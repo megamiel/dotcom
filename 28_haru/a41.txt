@@ -1,0 +1,1 @@
+<ul class="selectList"><li>Webブラウザとの間の通信を暗号化する。</li><li>発行済セッションIDをCookieに格納する。</li><li>発行済セッションIDをURLに設定する。</li><li>パスワードによる利用者認証を行う。</li></ul>

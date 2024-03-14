@@ -1,0 +1,1 @@
+<div class="sentence">"商品"表に対して，次のSQL文を実行して得られる仕入先コード数は幾つか。<br/><br/>〔SQL文〕<br/><div class="code">SELECT DISTINCT 仕入先コード FROM 商品<br/>　WHERE (販売単価 - 仕入単価) &gt;<br/>　　(SELECT AVG (販売単価 - 仕入単価) FROM 商品)</div><div class="img_margin"><img alt="28.gif" src="https://www.ap-siken.com/kakomon/04_aki/img/28.gif"/></div></div>

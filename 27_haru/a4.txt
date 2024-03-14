@@ -1,0 +1,1 @@
+<ul class="selectList"><li>端末に加わる加速度</li><li>端末の角速度</li><li>地球上における高度</li><li>地球の磁北</li></ul>

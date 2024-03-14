@@ -1,0 +1,1 @@
+<ul class="selectList"><li>AND </li><li>NAND </li><li>NOR </li><li>XOR </li></ul>

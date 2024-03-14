@@ -1,0 +1,1 @@
+<div class="sentence">DNSキャッシュポイズニングに分類される攻撃内容はどれか。</div>

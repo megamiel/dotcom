@@ -1,0 +1,1 @@
+<ul class="selectList"><li>1／2<sup>4</sup></li><li>1／2<sup>6</sup></li><li>1／2<sup>8</sup></li><li>1／2<sup>10</sup></li></ul>

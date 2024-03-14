@@ -1,0 +1,1 @@
+<div class="sentence">JavaBeansを利用してソフトウェア開発を行うメリットとして，適切なものはどれか。</div>

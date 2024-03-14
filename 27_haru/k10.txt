@@ -1,0 +1,1 @@
+<div class="sentence" id="kaisetsu"><strong>投機実行</strong>は、分岐判断の結果が出る前に分岐先を予測して命令を先行実行していく方式で、予測の精度が高ければ処理継続ができるので性能向上が期待できます。<br/><br/>したがって「エ」の記述が適切です。<ul class="selectList"><li class="lia">アウトオブオーダー実行の説明です。</li><li class="lii">同時マルチスレッディングの説明です。</li><li class="liu">マルチプロセッサシステムの説明です。</li><li class="lie">正しい。投機実行の説明です。</li></ul></div>

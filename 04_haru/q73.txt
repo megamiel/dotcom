@@ -1,0 +1,1 @@
+<div class="sentence">製造業のA社では，NC工作機械を用いて，四つの仕事a～dを行っている。各仕事間の段取り時間は表のとおりである。合計の段取り時間が最小になるように仕事を行った場合の合計段取り時間は何時間か。ここで，仕事はどの順序で行ってもよく，a～dを一度ずつ行うものとし，FROMからTOへの段取り時間で検討する。<div class="img_margin"><img alt="73.gif" src="https://www.ap-siken.com/kakomon/04_haru/img/73.gif"/></div></div>

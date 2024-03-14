@@ -1,0 +1,1 @@
+<ul class="selectList"><li>A，B，C</li><li>A，C，B</li><li>C，A，B</li><li>C，B，A</li></ul>

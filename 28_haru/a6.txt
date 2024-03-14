@@ -1,0 +1,1 @@
+<ul class="selectList"><li>ABC又はACBを実行してデッドロックになる。</li><li>AB又はACを実行してデッドロックになる。</li><li>Aの後にBC又はCB，BC又はCB，…と繰り返して実行する。</li><li>Aの後にBの無限ループ又はCの無限ループになる。</li></ul>

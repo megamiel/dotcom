@@ -1,0 +1,1 @@
+<div class="sentence">未整列の配列 A[i](i=1，2，…，n)を，次の流れ図によって整列する。ここで用いられる整列アルゴリズムはどれか。<div class="img_margin"><img alt="06.gif" src="https://www.ap-siken.com/kakomon/04_aki/img/06.gif"/></div></div>

@@ -1,0 +1,1 @@
+<div class="sentence">流れ図に示す処理の動作の記述として，適切なものはどれか。ここで，二重線は並列処理の同期を表す。<div class="img_margin"><img alt="06.gif" src="https://www.ap-siken.com/kakomon/28_haru/img/06.gif"/></div></div>

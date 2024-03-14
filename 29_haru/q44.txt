@@ -1,0 +1,1 @@
+<div class="sentence">攻撃にHTTP over TLS(HTTPS)が使われた場合に起こり得ることはどれか。</div>

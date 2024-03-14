@@ -1,0 +1,1 @@
+<ul class="selectList"><li>&lt;letter&gt;｜&lt;digit&gt;｜&lt;identifier&gt;&lt;letter&gt;｜&lt;identifier&gt;&lt;digit&gt;</li><li>&lt;letter&gt;｜&lt;digit&gt;｜&lt;letter&gt;&lt;identifier&gt;｜&lt;identifier&gt;&lt;digit&gt;</li><li>&lt;letter&gt;｜&lt;identifier&gt;&lt;digit&gt;</li><li>&lt;letter&gt;｜&lt;identifier&gt;&lt;digit&gt;｜&lt;identifier&gt;&lt;letter&gt;</li></ul>
