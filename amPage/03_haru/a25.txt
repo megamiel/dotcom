@@ -1,0 +1,1 @@
+<ul class="selectList"><li>X＝0，Y＝0</li><li>X＝0，Y＝1</li><li>X＝1，Y＝0</li><li>X＝1，Y＝1</li></ul>
