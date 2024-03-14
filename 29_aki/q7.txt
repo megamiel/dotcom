@@ -1,1 +1,0 @@
-<div class="sentence">fact(n)は，非負の整数nに対してnの階乗を返す。fact(n)の再帰的な定義はどれか。</div>

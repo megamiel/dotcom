@@ -1,1 +1,0 @@
-<ul class="selectList"><li>気圧センサー</li><li>ジャイロセンサー</li><li>地磁気センサー</li><li>超音波センサー</li></ul>

@@ -1,1 +1,0 @@
-<ul class="selectList"><li>開発計画</li><li>事業継続計画</li><li>全体最適化計画</li><li>年間運用計画</li></ul>

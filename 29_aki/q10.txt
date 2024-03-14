@@ -1,1 +1,0 @@
-<div class="sentence">IoTでの活用が検討されているLPWA(LowPower，WideArea)の特徴として，適切なものはどれか。</div>

@@ -1,1 +1,0 @@
-<div class="sentence">トランザクションA～Gの待ちグラフにおいて，永久待ちの状態になっているトランザクション全てを列挙したものはどれか。ここで，待ちグラフのX→Yは，トランザクションXはトランザクションYがロックしている資源のアンロックを待っていることを表す。<div class="img_margin"><img alt="29.gif" src="https://www.ap-siken.com/kakomon/29_aki/img/29.gif"/></div></div>

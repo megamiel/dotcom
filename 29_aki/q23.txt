@@ -1,1 +1,0 @@
-<div class="sentence">入力G＝0のときはX＝A，Y＝Bを出力し，G＝1のときはX＝<span class="ol">A</span>，Y＝<span class="ol">B</span>を出力する回路はどれか。</div>

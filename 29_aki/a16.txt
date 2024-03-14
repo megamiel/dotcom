@@ -1,1 +1,0 @@
-<ul class="selectList"><li>休止状態</li><li>実行可能状態</li><li>終了状態</li><li>待ち状態</li></ul>

@@ -1,1 +1,0 @@
-<div class="sentence">次のプレシデンスダイアグラムで表現されたプロジェクトスケジュールネットワーク図を，アローダイアグラムに書き直したものはどれか。ここで，プレシデンスダイアグラムの依存関係は全てFS関係とする。<div class="img_margin"><img alt="53.gif" src="https://www.ap-siken.com/kakomon/29_aki/img/53.gif"/></div></div>

@@ -1,1 +1,0 @@
-<div class="sentence">関係R(ID，A，B，C)のA，Cへの射影の結果とSQL文で求めた結果が同じになるように，aに入れるべき字句はどれか。ここで，関係Rを表Tで実現し，表Tに各行を格納したものを次に示す。<div class="img_margin"><img alt="28.gif" src="https://www.ap-siken.com/kakomon/29_aki/img/28.gif"/></div></div>

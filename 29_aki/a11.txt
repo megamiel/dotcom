@@ -1,1 +1,0 @@
-<ul class="selectList"><li><span class="frac"><span>(1－r)・a</span>a＋b</span>・x＋<span class="frac"><span>r・b</span>a＋b</span>・y</li><li>(1－r)・x＋r・y</li><li><span class="frac"><span>r・a</span>a＋b</span>・x＋<span class="frac"><span>(1－r)・b</span>a＋b</span>・y</li><li>r・x＋(1－r)・y</li></ul>

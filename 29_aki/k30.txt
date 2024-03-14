@@ -1,1 +1,0 @@
-<div class="sentence" id="kaisetsu"><strong>データマイニング</strong>(Data Mining)は、データウェアハウスに蓄積されている大量の生データから、統計学的手法、数学的手法を用いて今まで知られていなかったデータの規則や因果関係を見つけ出す手法です。<br/><br/>したがって「エ」が正解です。<ul class="selectList"><li class="lia">データウェアハウスの説明です。</li><li class="lii">データマートの説明です。</li><li class="liu">OLAP(Online Analytical Processing)の説明です。</li><li class="lie">正しい。データマイニングの説明です。</li></ul></div>

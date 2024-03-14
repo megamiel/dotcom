@@ -1,1 +1,0 @@
-<div class="sentence">構成表の製品Aを300個出荷しようとするとき，部品bの正味所要量は何個か。ここで，A，a，b，c の在庫量は在庫表のとおりとする。また，他の仕掛残，注文残，引当残などはないものとする。<div class="img_margin"><img alt="70.gif" src="https://www.ap-siken.com/kakomon/29_aki/img/70.gif"/></div></div>

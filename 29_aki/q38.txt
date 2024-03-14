@@ -1,1 +1,0 @@
-<div class="sentence">SIEM(Security Information and Event Management)の特徴はどれか。</div>
