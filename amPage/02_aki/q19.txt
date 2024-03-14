@@ -1,0 +1,1 @@
+<div class="sentence">OSS(Open Source Software)における，ディストリビュータの役割はどれか。</div>

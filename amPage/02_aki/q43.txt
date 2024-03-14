@@ -1,0 +1,1 @@
+<div class="sentence">ボットネットにおけるC&amp;Cサーバの役割として，適切なものはどれか。</div>

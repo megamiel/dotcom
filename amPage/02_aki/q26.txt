@@ -1,0 +1,1 @@
+<div class="sentence">表に対するSQLのGRANT文の説明として，適切なものはどれか。</div>

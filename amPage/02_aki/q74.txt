@@ -1,0 +1,1 @@
+<div class="sentence">不良品の個数を製品別に集計すると表のようになった。ABC分析を行って，まずA群の製品に対策を講じることにした。A群の製品は何種類か。ここで，A群は70%以上とする。<div class="img_margin"><img alt="74.gif" src="https://www.ap-siken.com/kakomon/02_aki/img/74.gif"/></div></div>

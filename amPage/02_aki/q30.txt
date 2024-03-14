@@ -1,0 +1,1 @@
+<div class="sentence">トランザクションのACID特性のうち，耐久性(durability)に関する記述として，適切なものはどれか。</div>
