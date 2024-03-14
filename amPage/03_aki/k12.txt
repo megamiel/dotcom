@@ -1,0 +1,1 @@
+<div class="sentence" id="kaisetsu"><ul class="selectList"><li class="lia">スケールアウトの説明です。</li><li class="lii">正しい。スケールインの説明です。</li><li class="liu">スケールアップの説明です。</li><li class="lie">スケールダウンの説明です。</li></ul><div class="img_margin"><img alt="12.gif" src="https://www.ap-siken.com/kakomon/03_aki/img/12.gif"/></div></div>
