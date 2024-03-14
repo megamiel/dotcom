@@ -1,1 +1,0 @@
-<div class="sentence">あるシステム導入プロジェクトで，調達候補のパッケージ製品を多基準意思決定分析の加重総和法を用いて評価する。製品A～製品Dのうち，総合評価が最も高い製品はどれか。ここで，評価点数の値が大きいほど，製品の評価は高い。<br/><br/>〔各製品の評価〕<div class="img_margin left"><img alt="54.gif" src="https://www.ap-siken.com/kakomon/04_aki/img/54.gif"/></div></div>

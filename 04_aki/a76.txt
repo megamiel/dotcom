@@ -1,1 +1,0 @@
-<ul class="selectList"><li>NM法</li><li>ゴードン法</li><li>親和図法</li><li>ブレーンストーミング</li></ul>

@@ -1,1 +1,0 @@
-<div class="sentence" id="kaisetsu">URLの一般的な構文は以下のように規定されています。<div class="img_margin"><img alt="35.gif" src="https://www.ap-siken.com/kakomon/04_aki/img/35.gif"/></div>URLで宛先のポート番号を指定する場合、<em class="r">ホスト名の直後</em>に":"(コロン)と数字を加えます。したがって「エ」が正解です。</div>

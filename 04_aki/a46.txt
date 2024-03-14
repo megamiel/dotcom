@@ -1,1 +1,0 @@
-<ul class="selectList"><li>ウォークスルー</li><li>サンドイッチテスト</li><li>トップダウンテスト</li><li>並行シミュレーション</li></ul>

@@ -1,1 +1,0 @@
-<div class="sentence">XMLにおいて，XML宣言中で符号化宣言を省略できる文字コードはどれか。</div>

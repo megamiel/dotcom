@@ -1,1 +1,0 @@
-<div class="sentence">チェックポイントを取得するDBMSにおいて，図のような時間経過でシステム障害が発生した。前進復帰(ロールフォワード)によって障害回復できるトランザクションだけを全て挙げたものはどれか。<div class="img_margin"><img alt="29.gif" src="https://www.ap-siken.com/kakomon/04_aki/img/29.gif"/></div></div>

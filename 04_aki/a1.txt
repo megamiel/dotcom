@@ -1,1 +1,0 @@
-<ul class="selectList"><li>n＋1</li><li>2n</li><li>n<sup>2</sup></li><li>2<sup>n</sup></li></ul>

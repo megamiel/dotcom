@@ -1,1 +1,0 @@
-<div class="sentence">SPF(Sender Policy Framework)の仕組みはどれか。</div>
