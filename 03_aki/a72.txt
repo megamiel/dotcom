@@ -1,1 +1,0 @@
-<ul class="selectList"><li>APIエコノミー</li><li>ギグエコノミー</li><li>シャドーエコノミー</li><li>トークンエコノミー</li></ul>

@@ -1,1 +1,0 @@
-<ul class="selectList"><li>IDで結合</li><li>差</li><li>直積</li><li>和</li></ul>

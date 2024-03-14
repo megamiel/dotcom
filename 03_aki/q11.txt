@@ -1,1 +1,0 @@
-<div class="sentence">表に示す仕様の磁気ディスク装置において，1,000バイトのデータの読取りに要する平均時間は何ミリ秒か。ここで，コントローラーの処理時間は平均シーク時間に含まれるものとする。<div class="img_margin"><img alt="11.gif" src="https://www.ap-siken.com/kakomon/03_aki/img/11.gif"/></div></div>

@@ -1,1 +1,0 @@
-<div class="sentence">CRUDマトリクスの説明はどれか。</div>
