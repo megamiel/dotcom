@@ -1,0 +1,1 @@
+<ul class="selectList"><li>|x<sub>1</sub>|＋|x<sub>2</sub>|≦32,768の場合</li><li>|x<sub>1</sub>|及び|x<sub>2</sub>|がともに32,767未満の場合</li><li>x<sub>1</sub>×x<sub>2</sub>＞0の場合</li><li>x<sub>1</sub>とx<sub>2</sub>の符号が異なる場合</li></ul>
