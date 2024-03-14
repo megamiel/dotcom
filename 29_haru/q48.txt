@@ -1,1 +1,0 @@
-<div class="sentence">流れ図において，分岐網羅を満たし，かつ，条件網羅を満たすテストデータの組はどれか。<div class="img_margin"><img alt="48.gif" src="https://www.ap-siken.com/kakomon/29_haru/img/48.gif"/></div></div>

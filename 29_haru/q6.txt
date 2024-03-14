@@ -1,1 +1,0 @@
-<div class="sentence">次の流れ図の処理で，終了時のxに格納されているものはどれか。ここで，与えられたa，bは正の整数であり，mod(x，y)はxをyで割った余りを返す。<div class="img_margin"><img alt="06.gif" src="https://www.ap-siken.com/kakomon/29_haru/img/06.gif"/></div></div>

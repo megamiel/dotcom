@@ -1,1 +1,0 @@
-<ul class="selectList"><li>FTP</li><li>PPP</li><li>SLIP</li><li>UDP</li></ul>

@@ -1,1 +1,0 @@
-<ul class="selectList"><li>F＝A</li><li>F＝B</li><li>F＝A・B</li><li>F＝A＋B</li></ul>

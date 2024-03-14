@@ -1,1 +1,0 @@
-<div class="sentence">ITIL 2011 editionの可用性管理プロセスにおいて，ITサービスの可用性と信頼性の管理に関わるKPIとして用いるものはどれか。</div>

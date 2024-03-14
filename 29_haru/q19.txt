@@ -1,1 +1,0 @@
-<div class="sentence">オープンソースライセンスのGNU GPL(GNU General Public License)の説明のうち，適切なものはどれか。</div>

@@ -1,1 +1,0 @@
-<div class="sentence">図のような構成と通信サービスのシステムにおいて，Webアプリケーションの脆弱性対策のためのWAFの設置場所として最も適切な箇所はどこか。ここで，WAFには通信を暗号化したり復号したりする機能はないものとする。<div class="img_margin"><img alt="43.gif" src="https://www.ap-siken.com/kakomon/29_haru/img/43.gif"/></div></div>

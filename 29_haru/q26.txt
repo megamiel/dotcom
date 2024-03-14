@@ -1,1 +1,0 @@
-<div class="sentence">データモデルを解釈してオブジェクト図を作成した。解釈の誤りを適切に指摘した記述はどれか。ここで，モデルの表記にはUMLを用い，オブジェクト図の一部の属性の表示は省略した。<div class="img_margin"><img alt="26.gif" src="https://www.ap-siken.com/kakomon/29_haru/img/26.gif"/></div></div>

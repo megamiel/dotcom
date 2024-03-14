@@ -1,1 +1,0 @@
-<ul class="selectList"><li>A案</li><li>B案</li><li>C案</li><li>D案</li></ul>

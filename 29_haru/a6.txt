@@ -1,1 +1,0 @@
-<ul class="selectList"><li>aとbの最小公倍数</li><li>aとbの最大公約数</li><li>aとbの小さい方に最も近い素数</li><li>aをbで割った商</li></ul>

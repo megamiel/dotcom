@@ -1,1 +1,0 @@
-<div class="sentence">ノードとノードの間のエッジの有無を，隣接行列を用いて表す。ある無向グラフの隣接行列が次の場合，グラフで表現したものはどれか。ここで，ノードを隣接行列の行と列に対応させて，ノード間にエッジが存在する場合は1で，エッジが存在しない場合は0で示す。<div class="img_margin"><img alt="03.gif" src="https://www.ap-siken.com/kakomon/29_haru/img/03.gif"/></div></div>

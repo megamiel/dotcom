@@ -1,1 +1,0 @@
-<ul class="selectList"><li>クロスセクション法</li><li>シナリオライティング法</li><li>親和図法</li><li>デルファイ法</li></ul>
