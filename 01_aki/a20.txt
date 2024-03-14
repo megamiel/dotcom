@@ -1,1 +1,0 @@
-<ul class="selectList"><li>2.5／128</li><li>2.5／255</li><li>2.5／256</li><li>2.5／512</li></ul>

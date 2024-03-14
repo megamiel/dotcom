@@ -1,1 +1,0 @@
-<div class="sentence" id="kaisetsu"><strong>ワークサンプリング法</strong>は、ある時点での観測対象が作業内容のどの状態にあったかという瞬間観測を何回か行い、観察記録の回数の割合から各作業時間がどのくらいであるかを統計学的に推定する方法です。<ul class="selectList"><li class="lia">正しい。ワークサンプリング法の説明です。</li><li class="lii">PTS法(規定時間標準法)の説明です。</li><li class="liu">実績資料法の説明です。</li><li class="lie">ストップウォッチ法(時間観測法)の説明です。</li></ul></div>

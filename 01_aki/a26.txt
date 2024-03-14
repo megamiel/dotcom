@@ -1,1 +1,0 @@
-<ul class="selectList"><li>E-Rモデル</li><li>階層モデル</li><li>関係モデル</li><li>ネットワークモデル</li></ul>

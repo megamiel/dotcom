@@ -1,1 +1,0 @@
-<div class="sentence">(1)～(7)に示した七つの原則を適用して，アジャイル開発プラクティスを実践する考え方はどれか。<ul class="parenthesesList"><li class="li1">ムダをなくす</li><li class="li2">品質を作り込む</li><li class="li3">知識を作り出す</li><li class="li4">決定を遅らせる</li><li class="li5">早く提供する</li><li class="li6">人を尊重する</li><li class="li7">全体を最適化する</li></ul></div>

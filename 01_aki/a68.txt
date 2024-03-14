@@ -1,1 +1,0 @@
-<ul class="selectList"><li>顧客価値（Customer Value）</li><li>顧客コスト（Customer Cost）</li><li>コミュニケーション（Communication）</li><li>利便性（Convenience）</li></ul>
