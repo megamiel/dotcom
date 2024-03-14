@@ -1,0 +1,1 @@
+<div class="sentence">Hadoopの説明はどれか。</div>
