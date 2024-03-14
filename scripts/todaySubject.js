@@ -22,7 +22,7 @@ function copy(event, index) {
     copyToClipboard(prompt);
     localStorage.setItem("extm", numStr[exam]);
     localStorage.setItem("subj", subsStr[diffDays%3*2+index]);
-    window.open("https://www.ap-siken.com/apkakomon_pm.php");
+    window.open("https://www.ap-siken.com/apkakomon_pm.php"):
 }
 
 // クリップボードへコピー
