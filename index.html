@@ -1,173 +1,178 @@
 <!DOCTYPE html>
 <html lang="ja">
 
-    <head>
-        <meta charset="UTF-8">
-        <title>ドットコム遷移</title>
-        <link rel="stylesheet" href="styles.css">
+<head>
+    <meta charset="UTF-8">
+    <title>ドットコム遷移</title>
+    <link rel="stylesheet" href="styles.css">
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.5.1/chart.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js"></script>
-        <style>
-            .canvas{
-                width:70%;
-                margin-left:15%;
-            }
-        </style>
-    </head>
-    <body>
-        <script>
-            if(localStorage.getItem("name")+""=="null"){
-                const name=prompt("ユーザ名を入力してください(苗字を除いた名前をひらがな表記したもの)");
-                localStorage.setItem("name",name);
-            }
-        </script>
-        <div class="c-loader-bg js-loader-bg">
-            <div class="c-loader-container">
-                <span></span>
-                <span></span>
-                <span></span>
-                <p>LOADING</p>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.5.1/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js"></script>
+    <style>
+        .canvas {
+            width: 70%;
+            margin-left: 15%;
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        if(localStorage.getItem("name")+""=="null"){
+            const name=prompt("ユーザ名を入力してください(苗字を除いた名前をひらがな表記したもの)");
+            localStorage.setItem("name",name);
+        }
+    </script>
+    <div class="c-loader-bg js-loader-bg">
+        <div class="c-loader-container">
+            <span></span>
+            <span></span>
+            <span></span>
+            <p>LOADING</p>
+        </div>
+    </div>
+    <script>
+        const jsLoaderBg = ".js-loader-bg";
+        const closeLoadingScreen = (jsLoaderBg) => {
+            gsap.timeline().to(jsLoaderBg, {
+                opacity: 0,
+                direction: 1.1
+            });
+        };
+
+        window.onload = () => {
+            setTimeout(() => {
+                closeLoadingScreen(jsLoaderBg);
+            }, 2500);
+        };
+    </script>
+
+
+    <div class="fuchidori">
+        <div class="blueLine">
+            <div class="oneLine">
+                <h1>　ドットコム遷移　~学習計画・分析/評価~</h1>
             </div>
-        </div>
-        <script>
-            const jsLoaderBg = ".js-loader-bg";
-            const closeLoadingScreen = (jsLoaderBg) => {
-                gsap.timeline().to(jsLoaderBg, {
-                    opacity: 0,
-                    direction: 1.1
-                });
-            };
 
-            window.onload = () => {
-                setTimeout(() => {
-                    closeLoadingScreen(jsLoaderBg);
-                }, 2500);
-            };
-        </script>
-
-
-        <div class="fuchidori">
-            <div class="blueLine">
-                <div class="oneLine">
-                    <h1>　ドットコム遷移　~学習計画・分析/評価~</h1>
-                </div>
-                
-            </div>
         </div>
-        <div class="container">
-            <img src="https://usagif.com/wp-content/uploads/gif/outerspace-6.gif" width="100%" height="auto">
-        </div>
-        <div id="remain" class="pn">応用情報技術者試験</div>
-        <script>
-            var today = new Date();
-            var end = new Date(2024, 3,21);
-            var diffMilliSec = end - today;
-            var diffDays = parseInt(diffMilliSec / 1000 / 60 / 60 / 24)+1;
-            document.getElementById("remain").innerHTML="応用情報技術者試験<br>試験日まであと<span style='color: #00FFFF'>"+diffDays+"</span>日!!";
-        </script>
-        <div class="marginTop">
-            <div class="box">
-            <h2>本日の学習予定科目</h2>
-            </div>
-        </div>
+    </div>
+    <div class="container">
+        <img src="https://usagif.com/wp-content/uploads/gif/outerspace-6.gif" width="100%" height="auto">
+    </div>
+    <div id="remain" class="pn">応用情報技術者試験</div>
+    <script>
+        var today = new Date();
+        var end = new Date(2024, 3, 21);
+        var diffMilliSec = end - today;
+        var diffDays = parseInt(diffMilliSec / 1000 / 60 / 60 / 24) + 1;
+        document.getElementById("remain").innerHTML = "応用情報技術者試験<br>試験日まであと<span style='color: #00FFFF'>" + diffDays + "</span>日!!";
+    </script>
+    <div class="marginTop">
         <div class="box">
-            <div class="field">
-                <h3 id="todaysSubject1"></h3>
-                <h3 id="todaysSubject2"></h3>
+            <h2>本日の学習予定科目</h2>
+        </div>
+    </div>
+    <div class="box">
+        <div class="field">
+            <h3 id="todaysSubject1"></h3>
+            <h3 id="todaysSubject2"></h3>
+        </div>
+    </div>
+    <script src="scripts/todaySubject.js"></script>
+    <div class="marginTop">
+        <h2>借金一覧</h2>
+    </div>
+    <div class="field">
+        <input id="loanName" type="text" placeholder=" 名前を入力">
+        <button id="loanButton" type="button">
+            <div class="fuchidori">
+                <p>検索</p>
             </div>
-        </div>
-        <script src="scripts/todaySubject.js"></script>
+        </button>
+    </div>
+    <ul id="loanUl"></ul>
+    <script src="scripts/loanList.js"></script>
+    <div class="marginTop">
+        <h2>科目ごとの分析/評価</h2>
+    </div>
+    <div class="field">
+        <input id="evalName" type="text" placeholder=" 名前を入力">
+        <button id="evalButton" type="button">
+            <div class="fuchidori">
+                <p>検索</p>
+            </div>
+        </button>
+    </div>
+
+    <div id="evalDiv" class="marginTopQuarter"></div>
+    <script src="scripts/evalSubject.js"></script>
+    <div class="canvas"></div>
+
+    <footer>
         <div class="marginTop">
-            <h2>借金一覧</h2>
-        </div>
-        <div class="field">
-            <input id="loanName" type="text" placeholder=" 名前を入力">
-            <button id="loanButton" type="button">
-                <div class="fuchidori">
-                    <p>検索</p>
-                </div>
-            </button>
-        </div>
-        <ul id="loanUl"></ul>
-        <script src="scripts/loanList.js"></script>
-        <div class="marginTop">
-            <h2>科目ごとの分析/評価</h2>
-        </div>
-        <div class="field">
-            <input id="evalName" type="text" placeholder=" 名前を入力">
-            <button id="evalButton" type="button">
-                <div class="fuchidori">
-                    <p>検索</p>
-                </div>
-            </button>
-        </div>
-
-        <div id="evalDiv" class="marginTopQuarter"></div>
-        <script src="scripts/evalSubject.js"></script>
-        <div class="canvas"></div>
-
-        <footer>
-            <div class="marginTop">
-                <div class="blueLine">
-                    <div class="field">
-                        <div class="spacer"></div>
-                        <div class="fuchidori"><p>リンク一覧</p></div>
-                        <div class="spacer">　　　　　　</div>
-                        <p><a href="#">戻る</a></p>
-                        
+            <div class="blueLine">
+                <div class="field">
+                    <div class="spacer"></div>
+                    <div class="fuchidori">
+                        <p>リンク一覧</p>
                     </div>
+                    <div class="spacer">　　　　　　</div>
+                    <p><a href="#">戻る</a></p>
 
-                    <div class="field">
-                        <div class="spacer"></div>
-                        <p><a href="https://www.ap-siken.com/apkakomon.php" target='_blank'>過去問道場 (午前)</a></p>
-                        <div class="spacer"></div>
-                        
-                        <p><a href="subPages/newForm.html" target='_blank'>学習結果入力フォーム</a></p>
-                    </div>
+                </div>
 
-                    <div class="field">
-                        <div class="spacer"></div>
-                        <p><a href="https://www.ap-siken.com/apkakomon_pm.php" target='_blank'>過去問道場 (午後)</a></p>
-                        <div class="spacer"></div>
-                        <p><a href="https://docs.google.com/spreadsheets/d/1ArB8T0B3ReoTGGmRmq_uDRFSNnJa2U5oIyJFlm5TpHc/edit#gid=0"
+                <div class="field">
+                    <div class="spacer"></div>
+                    <p><a href="https://www.ap-siken.com/apkakomon.php" target='_blank'>過去問道場 (午前)</a></p>
+                    <div class="spacer"></div>
+
+                    <p><a href="subPages/newForm.html" target='_blank'>学習結果入力フォーム</a></p>
+                </div>
+
+                <div class="field">
+                    <div class="spacer"></div>
+                    <p><a href="https://www.ap-siken.com/apkakomon_pm.php" target='_blank'>過去問道場 (午後)</a></p>
+                    <div class="spacer"></div>
+                    <p><a href="https://docs.google.com/spreadsheets/d/1ArB8T0B3ReoTGGmRmq_uDRFSNnJa2U5oIyJFlm5TpHc/edit#gid=0"
                             target='_blank'>みんなの成績表スプレッドシート</a></p>
-                    </div>
-
-                    <div class="field">
-                        <div class="spacer"></div>
-                        <p><a href="" target='_blank' onclick="window.open('subPages/gptStudy.html', '_blank', 'popup');">GPT-STUDY</a></p>
-                        <div class="spacer">　　&nbsp;</div>
-                        <p><a href="" id="betaForm">ベータ版 学習結果入力フォーム</a></p>
-                        <script>
-                            let betaForm = document.getElementById("betaForm");
-                            betaForm.onclick = event => {
-                                event.preventDefault();
-                                const url= "https://docs.google.com/forms/d/e/1FAIpQLSccJ1hQRwpmEFCGFD735x0JPAipo4F5o4Vr3hsli9SYRY8-nw/viewform?";
-                                const nameId="entry.2076022551=";
-                                const extmId="entry.366340186=";
-                                const subjId="entry.794497148=";
-                                const nameData = localStorage.getItem("name");
-                                const extmData=localStorage.getItem("extm");
-                                const subjData=localStorage.getItem("subj");
-                                let openUrl=url;
-                                if(nameData!=null&&extmData!=null&&subjData!=null){
-                                    openUrl+=nameId+nameData+"&"+extmId+extmData+"&"+subjId+subjData;
-                                }
-                                window.open(openUrl);
-                            }
-                        </script>
-                    </div>
-
-                    <br>
                 </div>
+
+                <div class="field">
+                    <div class="spacer"></div>
+                    <p><a href="" target='_blank'
+                            onclick="window.open('subPages/gptStudy.html', '_blank', 'popup');">GPT-STUDY</a></p>
+                    <div class="spacer">　　&nbsp;</div>
+                    <!-- <p><a href="" id="betaForm">ベータ版 学習結果入力フォーム</a></p>
+                    <script>
+                        let betaForm = document.getElementById("betaForm");
+                        betaForm.onclick = event => {
+                            event.preventDefault();
+                            const url= "https://docs.google.com/forms/d/e/1FAIpQLSccJ1hQRwpmEFCGFD735x0JPAipo4F5o4Vr3hsli9SYRY8-nw/viewform?";
+                            const nameId="entry.2076022551=";
+                            const extmId="entry.366340186=";
+                            const subjId="entry.794497148=";
+                            const nameData = localStorage.getItem("name");
+                            const extmData=localStorage.getItem("extm");
+                            const subjData=localStorage.getItem("subj");
+                            let openUrl=url;
+                            if(nameData!=null&&extmData!=null&&subjData!=null){
+                                openUrl+=nameId+nameData+"&"+extmId+extmData+"&"+subjId+subjData;
+                            }
+                            window.open(openUrl);
+                        }
+                    </script> -->
+                    <p><a href="subPages/originForm.html",target="_blank">ベータ版&nbsp;新学習結果入力フォーム</a></p>
+                </div>
+
+                <br>
             </div>
-        </footer>
+        </div>
+    </footer>
 
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
-        <script src="scripts/gsap.js"></script>
-    </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="scripts/gsap.js"></script>
+</body>
 
 </html>
