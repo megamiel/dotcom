@@ -294,7 +294,7 @@
             }
             exre[key].try++;
             if(tokens[2]=="true"){
-                exre[key].corret++;
+                exre[key].correct++;
                 correctCount++;
                 correctMap[key]=null;
             }
@@ -327,7 +327,6 @@
                     min=key;
                 }
             });
-            console.log(min);
             const array=min.split(" ");
             randomExtm=array[0];
             randomQNum=array[1];
