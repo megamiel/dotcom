@@ -76,11 +76,11 @@ document.getElementById("loanButton").addEventListener("click", () => {
         }
 
         for (var i = 0; i < todaysSubjects.length; i++){
-            var todaysSubject = todaysSubjects[i].innerHTML.replace("<br>", " ");
+            var todaysSubject = todaysSubjects[i].innerHTML.replaceAll("<br>"," ").replaceAll(/<[^>]+>/g,"");
             if (!array.includes(todaysSubject)) {
-                todaysSubjects[i].style.color="gray";
+                todaysSubjects[i].getElementsByTagName("a")[0].style.color = "gray";
             } else {
-                todaysSubjects[i].style.color = "black";
+                todaysSubjects[i].getElementsByTagName("a")[0].style.color = "black";
             }
             array[array.indexOf(todaysSubject)] = null;
         }
