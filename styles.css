@@ -6,60 +6,60 @@
 .fuchidori {
     color: #000;
     text-shadow: 1px 1px 0 #FFF, -1px -1px 0 #FFF,
-            -1px 1px 0 #FFF, 1px -1px 0 #FFF,
-            0px 1px 0 #FFF, 0-1px 0 #FFF,
-            -1px 0 0 #FFF, 1px 0 0 #FFF;
+        -1px 1px 0 #FFF, 1px -1px 0 #FFF,
+        0px 1px 0 #FFF, 0-1px 0 #FFF,
+        -1px 0 0 #FFF, 1px 0 0 #FFF;
 }
 
-.blueLine{
+.blueLine {
     background-color: #007bff;
     padding: 1px;
     border-radius: 5px;
 }
 
-.box{}
+.box {}
 
 .field {
     display: flex;
-    margin-left:15%;
+    margin-left: 15%;
 }
 
-.marginTop{
-    margin-top:6%;
+.marginTop {
+    margin-top: 6%;
 }
 
 .marginTopHalf {
     margin-top: 3%;
 }
 
-.marginTopQuarter{
-    margin-top:1%;
-    background-color:#f5f5f5;
+.marginTopQuarter {
+    margin-top: 1%;
+    background-color: #f5f5f5;
 }
 
-.marginBottomHalf{
-    margin-bottom:3%;
+.marginBottomHalf {
+    margin-bottom: 3%;
 }
 
 .marginBottomQuarter {
     margin-bottom: 1%;
 }
 
-.centering{
+.centering {
     text-align: center;
 }
 
-.textCentering{
-    margin-left:39%;
+.textCentering {
+    margin-left: 39%;
 }
 
-.graphCentering{
-    margin-left:17%;
+.graphCentering {
+    margin-left: 17%;
 }
 
-.spacer{
+.spacer {
     user-select: none;
-    margin-left:13%;
+    margin-left: 13%;
 }
 
 body {
@@ -78,7 +78,7 @@ a:hover {
     color: red;
 }
 
-h3>a:link{
+h3>a:link {
     color: black;
 }
 
@@ -106,10 +106,27 @@ input[type=text] {
     height: 35px;
     font-size: 16px;
     margin-left: 30%;
-    font-family:serif;
+    font-family: serif;
 }
 
-button{
+#termSubject{
+    height: 35px;
+    font-size: 20px;
+    margin-left: 28%;
+    font-family:"クラフト明朝"
+}
+
+#termUl{
+    margin-left: 15%;
+    margin-right:15%;
+}
+
+.termName{
+    font-size:36px;
+    color:green;
+}
+
+button {
     margin-left: 8px;
     width: 75px;
     height: 40px;
@@ -121,9 +138,9 @@ button{
     box-shadow: 8px 8px 16px #303030;
 }
 
-p{
-    font-family:"クラフト明朝";
-    font-size:26px;
+p {
+    font-family: "クラフト明朝";
+    font-size: 26px;
 }
 
 h1 {
@@ -131,39 +148,39 @@ h1 {
     font-size: 44px;
 }
 
-h2{
-    font-family:"クラフト明朝";
-    font-size:44px;
+h2 {
+    font-family: "クラフト明朝";
+    font-size: 44px;
     text-align: center;
 }
 
-h3{
+h3 {
     font-family: "クラフト明朝";
-    font-size:28px;
+    font-size: 28px;
     text-align: center;
     background-color: #ffa500;
-    margin-top:5px;
-    margin-left:5%;
-    padding:30px 10px 30px 10px;
-    width:32.5%;
+    margin-top: 5px;
+    margin-left: 5%;
+    padding: 30px 10px 30px 10px;
+    width: 32.5%;
     border-radius: 10px;
     box-shadow: 20px 20px 40px #303030;
 }
 
-h4{
+h4 {
     font-family: "クラフト明朝";
     font-size: 44px;
-    margin:0px;
+    margin: 0px;
 }
 
-ul{
+ul {
     font-family: "クラフト明朝";
-    font-size:28px;
+    font-size: 28px;
     margin-left: 32%;
 }
 
-li{
-    margin:5px;
+li {
+    margin: 5px;
 }
 
 img {
@@ -172,13 +189,13 @@ img {
     border-radius: 30px;
 }
 
-footer{
-    margin:0px;
+footer {
+    margin: 0px;
 }
 
-canvas{
-    margin:0 auto;
-    margin-bottom:5%;
+canvas {
+    margin: 0 auto;
+    margin-bottom: 5%;
 }
 
 .c-loader-bg {
@@ -252,19 +269,19 @@ canvas{
 }
 
 .pn {
-    font-family:"クラフト明朝";
-    font-size:48px;
+    font-family: "クラフト明朝";
+    font-size: 48px;
     transform: translate(-50%, -50%);
     position: absolute;
-    top:50%;
+    top: 50%;
     left: 30%;
     color: rgb(232, 78, 198);
     padding: 0;
     margin: 0;
-        text-shadow: 1px 1px 0 #FFF, -1px -1px 0 #FFF,
-                -1px 1px 0 #FFF, 1px -1px 0 #FFF,
-                0px 1px 0 #FFF, 0-1px 0 #FFF,
-                -1px 0 0 #FFF, 1px 0 0 #FFF;
+    text-shadow: 1px 1px 0 #FFF, -1px -1px 0 #FFF,
+        -1px 1px 0 #FFF, 1px -1px 0 #FFF,
+        0px 1px 0 #FFF, 0-1px 0 #FFF,
+        -1px 0 0 #FFF, 1px 0 0 #FFF;
     user-select: none;
     text-align: center;
 }
