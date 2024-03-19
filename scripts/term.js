@@ -3,8 +3,6 @@ document.getElementById("termButton").addEventListener("click", e => {
     let selectSubject = subjectElement.value;
     let termUl = document.getElementById("termUl");
     if (selectSubject == "- 選択 -") {
-        console.log("選択が選ばれたよ");
-        console.log("termUlの要素を空にする予定だよ");
         termUl.innerHTML = "";
         return;
     }
