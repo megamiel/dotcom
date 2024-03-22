@@ -4,6 +4,7 @@
 }
 
 @media screen and (min-width: 481px) {
+
     .fuchidori {
         color: #000;
         text-shadow: 1px 1px 0 #FFF, -1px -1px 0 #FFF,
@@ -305,6 +306,7 @@
 
 
 @media screen and (max-width: 480px) {
+
     .fuchidori {
         color: #000;
         text-shadow: 1px 1px 0 #FFF, -1px -1px 0 #FFF,
@@ -461,10 +463,10 @@
 
     h3 {
         font-family: "クラフト明朝";
-        font-size: 18px;
+        font-size: 16px;
         text-align: center;
         background-color: #ffa500;
-        width: 32.5%;
+        width: 40%;
         border-radius: 10px;
         box-shadow: 20px 20px 40px #303030;
         margin: 0 auto;
