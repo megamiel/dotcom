@@ -159,6 +159,7 @@ document.getElementById("evalButton").addEventListener("click", () => {
             divElement.appendChild(evalElement);
 
             var canvas = document.createElement("canvas");
+            canvas.className="oresen"
             canvas.width = 800;
 
             var count = [];
@@ -189,6 +190,9 @@ document.getElementById("evalButton").addEventListener("click", () => {
         h1.innerHTML = "<div class='centering'>総合評価レーダーチャート</div>";
         canvasDiv.appendChild(h1);
         var myRadarElement = document.createElement("canvas");
+        // if (window.innerWidth < 480) {
+        //     myRadarElement.height = 200;
+        // }
         canvasDiv.appendChild(myRadarElement);
         new Chart(myRadarElement, {
 
@@ -210,14 +214,14 @@ document.getElementById("evalButton").addEventListener("click", () => {
             options: { // チャートのその他オプション
                 scale: {
                     pointLabels: {       // 軸のラベル（"国語"など）
-                        fontSize: 22,         // 文字の大きさ
+                        fontSize: window.innerWidth>=480?22:10,         // 文字の大きさ
                         fontColor: "black"    // 文字の色
                     },
                     ticks: {             // 目盛り
                         min: 0,              // 最小値
                         max: 100,            // 最大値
                         stepSize: 20,        // 目盛の間隔
-                        fontSize: 16,        // 目盛り数字の大きさ
+                        fontSize: window.innerWidth>=480?16:8,        // 目盛り数字の大きさ
                         fontColor: "purple"  // 目盛り数字の色
                     },
                     angleLines: {        // 軸（放射軸）
@@ -236,6 +240,7 @@ document.getElementById("evalButton").addEventListener("click", () => {
         recentDiv.innerHTML += "<h1><div class='textCentering'>合計点数:" + Math.floor(recentTotalScore*10)/10 + "</div></h1>";
         recentDiv.innerHTML += "<h1><div class='textCentering'>試験結果:" + (recentTotalScore >= 60 ? "合格" : "不合格") + "</div></h1>";
         var canva = document.createElement("canvas");
+        canva.className = "bou";
         recentDiv.appendChild(canva);
         new Chart(canva, {
             type: "bar",    // ★必須　グラフの種類
@@ -257,7 +262,7 @@ document.getElementById("evalButton").addEventListener("click", () => {
                 scales: {                          // 軸設定
                     xAxes: [{
                         ticks: {                       // 目盛り
-                            fontSize: 16,        // 目盛り数字の大きさ
+                            fontSize: window.innerWidth>=480?16:5,
                             fontColor: "black"  // 目盛り数字の色
                         },
                     }],
@@ -266,8 +271,8 @@ document.getElementById("evalButton").addEventListener("click", () => {
                         ticks: {                       // 目盛り
                             min: 0,                        // 最小値
                             max: 100,                       // 最大値
-                            stepSize: 10,        // 目盛の間隔
-                            fontSize: 16,        // 目盛り数字の大きさ
+                            stepSize: window.innerWidth>=480?10:20,
+                            fontSize: window.innerWidth>=480?16:8,
                             fontColor: "purple"  // 目盛り数字の色
                         },
                     }],
