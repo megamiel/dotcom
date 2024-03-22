@@ -1,16 +1,20 @@
 document.getElementById("loanButton").addEventListener("click", () => {
     var ulElement = document.getElementById("loanUl");
-    ulElement.innerHTML = "<p>　　　データ取得中...</p>";
-    var todaysSubjects = [document.getElementById("todaysSubject1"),document.getElementById("todaysSubject2")];
-
     // 名前を取得し、借金一覧を表示する
     var name = document.getElementById("loanName").value;
-    if (name.split(/&$/).length==1) {
-        document.getElementById("evalName").value = name;
-    }
     if (name == "") {
         ulElement.innerHTML = "";
         return;
+    }
+    if (name.includes("&") && name.includes("$")) {
+        ulElement.innerHTML = "無効なコマンドです";
+        return;
+    }
+
+    var todaysSubjects = [document.getElementById("todaysSubject1"),document.getElementById("todaysSubject2")];
+    ulElement.innerHTML = "<p>　　　データ取得中...</p>";
+    if (name.split(/[&|$]/).length==1) {
+        document.getElementById("evalName").value = name;
     }
     var today = new Date();
     var start = new Date(2024, 0, 22);
@@ -39,10 +43,6 @@ document.getElementById("loanButton").addEventListener("click", () => {
         const data = await response.json();
 
         // 左側の借金かつ右側の未借金であるものを借金として表示する
-        if (name.includes("&") && name.includes("$")) {
-            ulElement.innerHTML = "";
-            return;
-        }
         if (name.includes("$")) {
             var names = name.split("$");
             var main = names[0];
@@ -50,11 +50,10 @@ document.getElementById("loanButton").addEventListener("click", () => {
             sub.shift();
             var subArray = [...array];
             data.forEach(entry => {
+                const tmpExamSub = entry.examTime + ' ' + entry.subject;
                 if (main == entry.name) {
-                    const tmpExamSub = entry.examTime + ' ' + entry.subject;
                     array[array.indexOf(tmpExamSub)] = null;
                 }else if (sub.includes(entry.name)) {
-                    const tmpExamSub = entry.examTime + ' ' + entry.subject;
                     subArray[subArray.indexOf(tmpExamSub)] = null;
                 }
             });
