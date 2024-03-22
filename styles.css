@@ -3,289 +3,606 @@
     src: url("./craftmincho/craftmincho/craftmincho.otf");
 }
 
-.fuchidori {
-    color: #000;
-    text-shadow: 1px 1px 0 #FFF, -1px -1px 0 #FFF,
-        -1px 1px 0 #FFF, 1px -1px 0 #FFF,
-        0px 1px 0 #FFF, 0-1px 0 #FFF,
-        -1px 0 0 #FFF, 1px 0 0 #FFF;
-}
+@media screen and (min-width: 481px) {
 
-.blueLine {
-    background-color: #007bff;
-    padding: 1px;
-    border-radius: 5px;
-}
+    .fuchidori {
+        color: #000;
+        text-shadow: 1px 1px 0 #FFF, -1px -1px 0 #FFF,
+            -1px 1px 0 #FFF, 1px -1px 0 #FFF,
+            0px 1px 0 #FFF, 0-1px 0 #FFF,
+            -1px 0 0 #FFF, 1px 0 0 #FFF;
+    }
 
-.box {}
+    .blueLine {
+        background-color: #007bff;
+        padding: 1px;
+        border-radius: 5px;
+    }
 
-.field {
-    display: flex;
-    margin-left: 15%;
-}
+    .box {}
 
-.marginTop {
-    margin-top: 6%;
-}
+    .field {
+        display: flex;
+        margin-left: 15%;
+    }
 
-.marginTopHalf {
-    margin-top: 3%;
-}
+    .marginTop {
+        margin-top: 6%;
+    }
 
-.marginTopQuarter {
-    margin-top: 1%;
-    background-color: #f5f5f5;
-}
+    .marginTopHalf {
+        margin-top: 3%;
+    }
 
-.marginBottomHalf {
-    margin-bottom: 3%;
-}
+    .marginTopQuarter {
+        margin-top: 1%;
+        background-color: #f5f5f5;
+    }
 
-.marginBottomQuarter {
-    margin-bottom: 1%;
-}
+    .marginBottomHalf {
+        margin-bottom: 3%;
+    }
 
-.centering {
-    text-align: center;
-}
+    .marginBottomQuarter {
+        margin-bottom: 1%;
+    }
 
-.textCentering {
-    margin-left: 39%;
-}
+    .centering {
+        text-align: center;
+    }
 
-.graphCentering {
-    margin-left: 17%;
-}
+    .textCentering {
+        margin-left: 39%;
+    }
 
-.spacer {
-    user-select: none;
-    margin-left: 13%;
-}
+    .graphCentering {
+        margin-left: 17%;
+    }
 
-body {
-    background-color: #f5f5f5;
-}
+    .spacer {
+        user-select: none;
+        margin-left: 13%;
+    }
 
-a:link {
-    color: #4cefe9;
-}
+    body {
+        background-color: #f5f5f5;
+    }
 
-a:visited {
-    color: #4cefe9;
-}
+    a:link {
+        color: #4cefe9;
+    }
 
-a:hover {
-    color: red;
-}
+    a:visited {
+        color: #4cefe9;
+    }
 
-h3>a:link {
-    color: black;
-}
+    a:hover {
+        color: red;
+    }
 
-h3>a:visited {
-    color: black;
-}
+    h3>a:link {
+        color: black;
+    }
 
-h3>a:hover {
-    color: black;
-}
+    h3>a:visited {
+        color: black;
+    }
 
-li>a:link {
-    color: black;
-}
+    h3>a:hover {
+        color: black;
+    }
 
-li>a:visited {
-    color: black;
-}
+    li>a:link {
+        color: black;
+    }
 
-li>a:hover {
-    color: black;
-}
+    li>a:visited {
+        color: black;
+    }
 
-input[type=text] {
-    height: 35px;
-    font-size: 16px;
-    margin-left: 30%;
-    font-family: serif;
-}
+    li>a:hover {
+        color: black;
+    }
 
-#termSubject{
-    height: 35px;
-    font-size: 20px;
-    margin-left: 27%;
-    font-family:"クラフト明朝"
-}
+    input[type=text] {
+        height: 35px;
+        font-size: 16px;
+        margin-left: 30%;
+        font-family: serif;
+    }
 
-#termUl{
-    margin-left: 15%;
-    margin-right:15%;
-}
+    #termSubject{
+        height: 35px;
+        font-size: 20px;
+        margin-left: 27%;
+        font-family:"クラフト明朝"
+    }
 
-.termName{
-    font-size:36px;
-    color:green;
-}
+    #termUl{
+        margin-left: 15%;
+        margin-right:15%;
+    }
 
-button {
-    margin-left: 8px;
-    width: 75px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #ffa500;
-    border-radius: 5px;
-    box-shadow: 8px 8px 16px #303030;
-}
+    .termName{
+        font-size:36px;
+        color:green;
+    }
 
-p {
-    font-family: "クラフト明朝";
-    font-size: 26px;
-}
+    button {
+        margin-left: 8px;
+        width: 75px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #ffa500;
+        border-radius: 5px;
+        box-shadow: 8px 8px 16px #303030;
+    }
 
-h1 {
-    font-family: "クラフト明朝";
-    font-size: 44px;
-}
+    p {
+        font-family: "クラフト明朝";
+        font-size: 26px;
+    }
 
-h2 {
-    font-family: "クラフト明朝";
-    font-size: 44px;
-    text-align: center;
-}
+    h1 {
+        font-family: "クラフト明朝";
+        font-size: 44px;
+    }
 
-h3 {
-    font-family: "クラフト明朝";
-    font-size: 28px;
-    text-align: center;
-    background-color: #ffa500;
-    margin-top: 5px;
-    margin-left: 5%;
-    padding: 30px 10px 30px 10px;
-    width: 32.5%;
-    border-radius: 10px;
-    box-shadow: 20px 20px 40px #303030;
-}
+    h2 {
+        font-family: "クラフト明朝";
+        font-size: 44px;
+        text-align: center;
+    }
 
-h4 {
-    font-family: "クラフト明朝";
-    font-size: 44px;
-    margin: 0px;
-}
+    h3 {
+        font-family: "クラフト明朝";
+        font-size: 28px;
+        text-align: center;
+        background-color: #ffa500;
+        margin-top: 5px;
+        margin-left: 5%;
+        padding: 30px 10px 30px 10px;
+        width: 32.5%;
+        border-radius: 10px;
+        box-shadow: 20px 20px 40px #303030;
+    }
 
-ul {
-    font-family: "クラフト明朝";
-    font-size: 28px;
-    margin-left: 32%;
-}
+    h4 {
+        font-family: "クラフト明朝";
+        font-size: 44px;
+        margin: 0px;
+    }
 
-li {
-    margin: 5px;
-}
+    ul {
+        font-family: "クラフト明朝";
+        font-size: 28px;
+        margin-left: 32%;
+    }
 
-img {
-    display: block;
-    margin: auto;
-    border-radius: 30px;
-}
+    li {
+        margin: 5px;
+    }
 
-footer {
-    margin: 0px;
-}
+    img {
+        display: block;
+        margin: auto;
+        border-radius: 30px;
+    }
 
-canvas {
-    margin: 0 auto;
-    margin-bottom: 5%;
-}
+    footer {
+        margin: 0px;
+    }
 
-.c-loader-bg {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #5bbee5;
-    z-index: 999;
-    display: grid;
-    place-items: center;
-    pointer-events: none;
-}
+    canvas {
+        margin: 0 auto;
+        margin-bottom: 5%;
+    }
 
-.c-loader-container {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    margin-left: -50px;
-    margin-top: -10px;
-    text-align: center;
-    font-family: Arial;
-    font-weight: bold;
-}
+    .c-loader-bg {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #5bbee5;
+        z-index: 999;
+        display: grid;
+        place-items: center;
+        pointer-events: none;
+    }
 
-.c-loader-container span {
-    display: block;
-    background: #000;
-    width: 100px;
-    height: 5px;
-    margin-top: 5px;
-    animation: load 2s infinite;
-    border-radius: 5px;
-}
+    .c-loader-container {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-left: -50px;
+        margin-top: -10px;
+        text-align: center;
+        font-family: Arial;
+        font-weight: bold;
+    }
 
-.c-loader-container span:nth-child(2) {
-    animation-delay: 100ms;
-}
+    .c-loader-container span {
+        display: block;
+        background: #000;
+        width: 100px;
+        height: 5px;
+        margin-top: 5px;
+        animation: load 2s infinite;
+        border-radius: 5px;
+    }
 
-.c-loader-container span:nth-child(3) {
-    animation-delay: 200ms;
-}
+    .c-loader-container span:nth-child(2) {
+        animation-delay: 100ms;
+    }
 
-@keyframes load {
-    50% {
-        width: 5px;
-        margin-right: 95px;
-        opacity: 0.1;
+    .c-loader-container span:nth-child(3) {
+        animation-delay: 200ms;
+    }
+
+    @keyframes load {
+        50% {
+            width: 5px;
+            margin-right: 95px;
+            opacity: 0.1;
+        }
+    }
+
+    @keyframes AnimationName {
+        0% {
+            background-position: 50% 0%;
+        }
+
+        50% {
+            background-position: 50% 100%;
+        }
+
+        100% {
+            background-position: 50% 0%;
+        }
+    }
+
+
+
+    .container {
+        position: relative;
+    }
+
+    .pn {
+        font-family: "クラフト明朝";
+        font-size: 48px;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        top: 50%;
+        left: 30%;
+        color: rgb(232, 78, 198);
+        padding: 0;
+        margin: 0;
+        text-shadow: 1px 1px 0 #FFF, -1px -1px 0 #FFF,
+            -1px 1px 0 #FFF, 1px -1px 0 #FFF,
+            0px 1px 0 #FFF, 0-1px 0 #FFF,
+            -1px 0 0 #FFF, 1px 0 0 #FFF;
+        user-select: none;
+        text-align: center;
+    }
+
+    html {
+        scroll-behavior: smooth;
     }
 }
 
-@keyframes AnimationName {
-    0% {
-        background-position: 50% 0%;
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+
+    .fuchidori {
+        color: #000;
+        text-shadow: 1px 1px 0 #FFF, -1px -1px 0 #FFF,
+            -1px 1px 0 #FFF, 1px -1px 0 #FFF,
+            0px 1px 0 #FFF, 0-1px 0 #FFF,
+            -1px 0 0 #FFF, 1px 0 0 #FFF;
     }
 
-    50% {
-        background-position: 50% 100%;
+    .blueLine {
+        background-color: #007bff;
+        padding: 1px;
+        border-radius: 5px;
     }
 
-    100% {
-        background-position: 50% 0%;
+    .box {}
+
+    .field {
+        display: flex;
+        text-align:center
     }
-}
+
+    .marginTop {
+        margin-top: 6%;
+    }
+
+    .marginTopHalf {
+        margin-top: 3%;
+    }
+
+    .marginTopQuarter {
+        margin-top: 1%;
+        background-color: #f5f5f5;
+    }
+
+    .marginBottomHalf {
+        margin-bottom: 3%;
+    }
+
+    .marginBottomQuarter {
+        margin-bottom: 1%;
+    }
+
+    .centering {
+        text-align: center;
+    }
+
+    .textCentering {
+        margin-left:30%;
+    }
+
+    .graphCentering {
+        /* margin-left: 17%; */
+    }
+
+    .spacer {
+        user-select: none;
+        margin-left: 13%;
+    }
+
+    body {
+        background-color: #f5f5f5;
+    }
+
+    a:link {
+        color: #4cefe9;
+    }
+
+    a:visited {
+        color: #4cefe9;
+    }
+
+    a:hover {
+        color: red;
+    }
+
+    h3>a:link {
+        color: black;
+    }
+
+    h3>a:visited {
+        color: black;
+    }
+
+    h3>a:hover {
+        color: black;
+    }
+
+    li>a:link {
+        color: black;
+    }
+
+    li>a:visited {
+        color: black;
+    }
+
+    li>a:hover {
+        color: black;
+    }
+
+    input[type=text] {
+        height: 35px;
+        font-size: 16px;
+        font-family: serif;
+        margin: 0 auto;
+        margin-right:1%;
+    }
+
+    #termSubject {
+        height: 35px;
+        font-size: 20px;
+        font-family: "クラフト明朝";
+        margin: 0 auto;
+        margin-right:1%;
+    }
+
+    #termUl {
+        margin:0 auto;
+    }
+
+    .termName {
+        font-size: 20px;
+        color: green;
+        margin: 0 auto;
+    }
+
+    button {
+        width: 75px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #ffa500;
+        border-radius: 5px;
+        box-shadow: 8px 8px 16px #303030;
+        margin: 0 auto;
+        margin-left:0px;
+    }
+
+    p {
+        font-family: "クラフト明朝";
+        font-size: 16px;
+    }
+
+    h1 {
+        font-family: "クラフト明朝";
+        font-size: 24px;
+    }
+
+    h2 {
+        font-family: "クラフト明朝";
+        font-size: 24px;
+        text-align: center;
+    }
+
+    h3 {
+        font-family: "クラフト明朝";
+        font-size: 18px;
+        text-align: center;
+        background-color: #ffa500;
+        width: 32.5%;
+        border-radius: 10px;
+        box-shadow: 20px 20px 40px #303030;
+        margin: 0 auto;
+        padding:2%;
+    }
+
+    #todaysSubject1{
+        margin-right:1%;
+    }
+
+    #todaysSubject2 {
+        margin-left: 1%;
+    }
+
+    h4 {
+        font-family: "クラフト明朝";
+        font-size: 24px;
+        margin: 0px;
+    }
+
+    ul {
+        font-family: "クラフト明朝";
+        font-size: 16px;
+    }
+
+    li {
+        margin: 5px;
+    }
+
+    img {
+        display: block;
+        margin: auto;
+        border-radius: 30px;
+    }
+
+    footer {
+        margin: 0px;
+    }
+
+    canvas {
+        margin: 0 auto;
+        /* max-width: 100px; */
+        margin-bottom: 5%;
+    }
+
+    .c-loader-bg {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #5bbee5;
+        z-index: 999;
+        display: grid;
+        place-items: center;
+        pointer-events: none;
+    }
+
+    .c-loader-container {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-left: -50px;
+        margin-top: -10px;
+        text-align: center;
+        font-family: Arial;
+        font-weight: bold;
+    }
+
+    .c-loader-container span {
+        display: block;
+        background: #000;
+        width: 100px;
+        height: 5px;
+        margin-top: 5px;
+        animation: load 2s infinite;
+        border-radius: 5px;
+    }
+
+    .c-loader-container span:nth-child(2) {
+        animation-delay: 100ms;
+    }
+
+    .c-loader-container span:nth-child(3) {
+        animation-delay: 200ms;
+    }
+
+    @keyframes load {
+        50% {
+            width: 5px;
+            margin-right: 95px;
+            opacity: 0.1;
+        }
+    }
+
+    @keyframes AnimationName {
+        0% {
+            background-position: 50% 0%;
+        }
+
+        50% {
+            background-position: 50% 100%;
+        }
+
+        100% {
+            background-position: 50% 0%;
+        }
+    }
 
 
 
-.container {
-    position: relative;
-}
+    .container {
+        position: relative;
+    }
 
-.pn {
-    font-family: "クラフト明朝";
-    font-size: 48px;
-    transform: translate(-50%, -50%);
-    position: absolute;
-    top: 50%;
-    left: 30%;
-    color: rgb(232, 78, 198);
-    padding: 0;
-    margin: 0;
-    text-shadow: 1px 1px 0 #FFF, -1px -1px 0 #FFF,
-        -1px 1px 0 #FFF, 1px -1px 0 #FFF,
-        0px 1px 0 #FFF, 0-1px 0 #FFF,
-        -1px 0 0 #FFF, 1px 0 0 #FFF;
-    user-select: none;
-    text-align: center;
-}
+    .pn {
+        font-family: "クラフト明朝";
+        font-size: 20px;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        top: 20%;
+        left: 30%;
+        color: rgb(232, 78, 198);
+        padding: 0;
+        margin: 0;
+        text-shadow: 1px 1px 0 #FFF, -1px -1px 0 #FFF,
+            -1px 1px 0 #FFF, 1px -1px 0 #FFF,
+            0px 1px 0 #FFF, 0-1px 0 #FFF,
+            -1px 0 0 #FFF, 1px 0 0 #FFF;
+        user-select: none;
+        text-align: center;
+    }
 
-html {
-    scroll-behavior: smooth;
+    html {
+        scroll-behavior: smooth;
+    }
+
+
 }
