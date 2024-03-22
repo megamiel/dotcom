@@ -160,7 +160,11 @@ document.getElementById("evalButton").addEventListener("click", () => {
 
             var canvas = document.createElement("canvas");
             canvas.className="oresen"
-            canvas.width = 800;
+            if (window.innerWidth >= 480) {
+                canvas.width = 800;
+            } else {
+                canvas.width = 400;
+            }
 
             var count = [];
             for (var i = 0; i < datas[key].length; i++) {
