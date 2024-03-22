@@ -5,6 +5,11 @@
 
 @media screen and (min-width: 481px) {
 
+    .canvas,.recent {
+        width: 70%;
+        margin-left: 15%;
+    }
+
     .fuchidori {
         color: #000;
         text-shadow: 1px 1px 0 #FFF, -1px -1px 0 #FFF,
@@ -307,6 +312,15 @@
 
 @media screen and (max-width: 480px) {
 
+    .canvas {
+        width: 80%;
+        margin:0 auto;
+    }
+    .recent{
+        width: 100%;
+        margin: 0 auto;
+    }
+
     .fuchidori {
         color: #000;
         text-shadow: 1px 1px 0 #FFF, -1px -1px 0 #FFF,
@@ -506,10 +520,14 @@
         margin: 0px;
     }
 
-    canvas {
-        margin: 0 auto;
-        /* max-width: 100px; */
-        margin-bottom: 5%;
+    .oresen{
+        max-width: 400px;
+        max-height: 200px;
+    }
+
+    .bou{
+        min-width: 400px;
+        min-height: 200px;
     }
 
     .c-loader-bg {
