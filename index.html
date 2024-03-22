@@ -3,22 +3,14 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0, user-scalable=no">
     <title>ドットコム遷移</title>
     <link rel="stylesheet" href="styles.css">
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.5.1/chart.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js"></script>
-    <style>
-        .canvas , .recent {
-            width: 70%;
-            margin-left: 15%;
-        }
-    </style>
 </head>
 
 <body>
-    <script>console.log("new version")</script>
     <script>
         if(localStorage.getItem("name")+""=="null"){
             const name=prompt("ユーザ名を入力してください(苗字を除いた名前をひらがな表記したもの)");
