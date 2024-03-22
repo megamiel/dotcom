@@ -1,16 +1,16 @@
 document.getElementById("evalButton").addEventListener("click", () => {
     var divElement = document.getElementById("evalDiv");
     var name = document.getElementById("evalName").value;
+    var canvasDiv = document.getElementsByClassName("canvas")[0];
+    var recentDiv = document.getElementsByClassName("recent")[0];
+    canvasDiv.innerHTML = "";
+    recentDiv.innerHTML = "";
     if (name == "") {
         divElement.innerHTML = "";
         return;
     }
     divElement.innerHTML = "<div class='centering'><p>データ取得中...</p></div>";
     document.getElementById("loanName").value = name;
-    var canvasDiv = document.getElementsByClassName("canvas")[0];
-    canvasDiv.innerHTML = "";
-    var recentDiv = document.getElementsByClassName("recent")[0];
-    recentDiv.innerHTML = "";
 
     const apiURL = 'https://script.googleusercontent.com/macros/echo?user_content_key=BOGdYm1y3kE77zyKdhnsRfW5T6buYk8z8GlynOB2Fq0oIEtRLwPdrpuQEZ6jnY0Bc42H-nBJpBz3TEYuKZ1aKwyWQwRMBcicm5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnBEac8yhMX_UGTRK0AmiD8wOBJ35tBimKZrrn5UGOz62eovfTyB1c6F0y4wx9TsrkmGJSNT4kJlBMnzlTuB8tvJ_6xO983bD7tz9Jw9Md8uu&lib=MMcLF4_2FiLZJ-kSjkX5mU7SAidacjQG-';
 
@@ -159,7 +159,7 @@ document.getElementById("evalButton").addEventListener("click", () => {
             divElement.appendChild(evalElement);
 
             var canvas = document.createElement("canvas");
-            canvas.className="oresen"
+            canvas.className = "oresen";
             if (window.innerWidth >= 480) {
                 canvas.width = 800;
             } else {
