@@ -425,7 +425,7 @@
                     nextButton.textContent="次の問題へ";
                 }
                 document.addEventListener('keypress', e => {
-                    if (e.code == "Space"||e.code=="Enter") {
+                    if (localStorage.getItem("name")!="そうま"&&(e.code == "Space"||e.code=="Enter")) {
                         nextButton.click();
                     }
                 });
