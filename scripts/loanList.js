@@ -25,7 +25,7 @@ document.getElementById("loanButton").addEventListener("click", () => {
     numStr=numStr.reverse();
     var subsStr = ['情報セキュリティ', '経営戦略', 'データベース', 'サービスマネジメント', 'プロジェクトマネジメント', '組込みシステム開発'];
     const todayExam = Math.floor((diffDays) / 6);
-    const todayFinalSubject = (diffDays-1)%6;
+    const todayFinalSubject = (diffDays)%6;
     var array = [];
     for (var i = 0; i <= todayExam; i++) {
         for (var j = 0; j < subsStr.length; j++) {
