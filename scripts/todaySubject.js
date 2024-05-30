@@ -37,5 +37,5 @@ function copyToClipboard(text) {
 }
 
 function write(index) {
-    document.getElementById("todaysSubject" + (index + 1)).innerHTML="<a href='' onclick='copy(event,"+index+")'>"+numStr[Math.floor(diffDays / 6)] + "<br>" + subsStr[diffDays % 6]"</a>";
+    document.getElementById("todaysSubject" + (index + 1)).innerHTML="<a href='' onclick='copy(event,"+index+")'>"+numStr[Math.floor(diffDays / 6)] + "<br>" + subsStr[diffDays % 6]+"</a>";
 }
