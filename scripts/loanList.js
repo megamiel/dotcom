@@ -11,7 +11,7 @@ document.getElementById("loanButton").addEventListener("click", () => {
         return;
     }
 
-    var todaysSubjects = [document.getElementById("todaysSubject1"),document.getElementById("todaysSubject2")];
+    var todaysSubjects = [document.getElementById("todaysSubject1")];
     ulElement.innerHTML = "<p>　　　データ取得中...</p>";
     if (name.split(/[&|$]/).length==1) {
         document.getElementById("evalName").value = name;
