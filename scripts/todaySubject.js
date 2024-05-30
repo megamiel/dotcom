@@ -9,7 +9,7 @@ var subsStr = ["情報セキュリティ", "経営戦略", "データベース",
 
 var subIds = [0, 1, 5, 9, 8, 6];
 write(0);
-write(1);
+// write(1);
 
 function copy(event, index) {
     event.preventDefault();
