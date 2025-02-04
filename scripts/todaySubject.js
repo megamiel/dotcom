@@ -1,5 +1,5 @@
 var today = new Date();
-var start = new Date(2024, 4, 31);
+var start = new Date(2025, 0, 1);
 var diffMilliSec = today - start;
 /*ミリ秒を日数に変換*/
 var diffDays = parseInt(diffMilliSec / 1000 / 60 / 60 / 24);
