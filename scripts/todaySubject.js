@@ -9,7 +9,7 @@ var subsStr = ["情報セキュリティ", "経営戦略", "データベース",
 
 var subIds = [0, 1, 5, 9, 8, 6];
 write(0);
-// write(1);
+write(1);
 
 function copy(event, index) {
     event.preventDefault();
@@ -37,5 +37,5 @@ function copyToClipboard(text) {
 }
 
 function write(index) {
-    document.getElementById("todaysSubject" + (index + 1)).innerHTML="<a href='' onclick='copy(event,"+index+")'>"+numStr[Math.floor(diffDays / 6)] + "<br>" + subsStr[diffDays % 6]+"</a>";
+    document.getElementById("todaysSubject" + (index + 1)).innerHTML="<a href='' onclick='copy(event,"+index+")'>"+numStr[Math.floor(diffDays / 3)] + "<br>" + subsStr[diffDays % 3 * 2 +index]+"</a>";
 }
