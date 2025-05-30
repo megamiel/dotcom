@@ -96,7 +96,7 @@ document.getElementById("loanButton").addEventListener("click", () => {
         ulElement.innerHTML = count + "個の借金があります</div>";
 
         for (var i = 0; i < array.length; i++) {
-            if (array[i] != null&&!array[i].include("undefined")) {
+            if (array[i] != null) {
                 var liElement = document.createElement('li');
                 liElement.innerHTML = "<a href='' onclick='loanCopy(event,"+i+")'>"+ array[i]+"</a>";
                 ulElement.appendChild(liElement);
